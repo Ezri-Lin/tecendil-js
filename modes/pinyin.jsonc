@@ -115,7 +115,7 @@
   // dictionaries, giving the exact glyph for every syllable. Key design points:
   //   - Main vowel   → tehta ABOVE the initial (a/o/e/i/u/ü).
   //   - Medial glide → tehta BELOW the initial (i=[dot-below],
-  //     u=[left-curl-below], ü=[double-dot-below]).
+  //     u=[bar-below], ü=[double-dot-below]).
   //   - Falling diphthongs (ai/ei/ao/ou) use Beleriand style: the FIRST vowel
   //     is a full tengwa ({osse}/{yanta}/{anna}) and the second is a tehta.
   //   - Retroflex zh/ch/sh = base tengwa + lower hook [left-hook-below]
@@ -126,9 +126,9 @@
     // 4-character finals (medial + vowel + nasal)
     // ---------------------------------------------------------------
     "iang": "[triple-dot-above][dot-below]{nwalme}",
-    "uang": "[triple-dot-above][left-curl-below]{nwalme}",
+    "uang": "[triple-dot-above][bar-below]{nwalme}",
     "iong": "[dot-below][right-curl]{nwalme}",
-    "ueng": "[left-curl-below][acute]{nwalme}",
+    "ueng": "[bar-below][acute]{nwalme}",
 
     // ---------------------------------------------------------------
     // 3-character finals
@@ -136,11 +136,11 @@
     // Triphthongs (Beleriand core vowel + medial below + tehta above)
     "iao": "[dot-below]{osse}[right-curl]",
     "iou": "[dot-below]{anna}[left-curl]",
-    "uai": "[left-curl-below]{osse}[dot-above]",
-    "uei": "[left-curl-below]{yanta}[dot-above]",
+    "uai": "[bar-below]{osse}[dot-above]",
+    "uei": "[bar-below]{yanta}[dot-above]",
     // medial + vowel + -n
     "ian": "[dot-below][triple-dot-above]{nuumen}",
-    "uan": "[left-curl-below][triple-dot-above]{nuumen}",
+    "uan": "[bar-below][triple-dot-above]{nuumen}",
     "van": "[triple-dot-above][double-dot-below]{nuumen}",
     // vowel + -ng (no medial)
     "ang": "[triple-dot-above]{nwalme}",
@@ -154,7 +154,7 @@
     "an":  "[triple-dot-above]{nuumen}",
     "en":  "[acute]{nuumen}",
     "in":  "[dot-below]{nuumen}",
-    "uen": "[acute][left-curl-below]{nuumen}",
+    "uen": "[acute][bar-below]{nuumen}",
     "vn":  "[double-dot-below]{nuumen}",
 
     // ---------------------------------------------------------------
@@ -168,8 +168,8 @@
     // Rising diphthongs: medial glide below + main vowel above.
     "ia": "[triple-dot-above][dot-below]",
     "ie": "[acute][dot-below]",
-    "ua": "[triple-dot-above][left-curl-below]",
-    "uo": "[right-curl][left-curl-below]",
+    "ua": "[triple-dot-above][bar-below]",
+    "uo": "[right-curl][bar-below]",
     "ve": "[acute][double-dot-below]",
 
     // ---------------------------------------------------------------
