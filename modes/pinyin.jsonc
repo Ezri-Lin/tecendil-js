@@ -1,0 +1,231 @@
+// -----------------------------------------------------------------------------
+//
+// CHINESE PINYIN MODE
+//
+// Hanyu Pinyin → Tengwar (searcherr mapping convention)
+// See docs/Ledgers/invariants/pinyin-mode.md for the complete mapping invariant.
+//
+// -----------------------------------------------------------------------------
+
+{
+  "name": "pinyin",
+  "languageCode": "zh",
+
+  "preprocess": {
+    // Tone-marked vowels → vowel + tone digit (so the mode engine can apply
+    // both the vowel tehtar and the tone tehtar as separate stacks).
+    "ā": "a1",
+    "á": "a2",
+    "ǎ": "a3",
+    "à": "a4",
+    "ē": "e1",
+    "é": "e2",
+    "ě": "e3",
+    "è": "e4",
+    "ī": "i1",
+    "í": "i2",
+    "ǐ": "i3",
+    "ì": "i4",
+    "ō": "o1",
+    "ó": "o2",
+    "ǒ": "o3",
+    "ò": "o4",
+    "ū": "u1",
+    "ú": "u2",
+    "ǔ": "u3",
+    "ù": "u4",
+    "ǖ": "v1",
+    "ǘ": "v2",
+    "ǚ": "v3",
+    "ǜ": "v4",
+
+    // Move the tone digit to the end of a compound final. The accented vowel
+    // rules above initially produce forms such as zai4's "za4i"; these rules
+    // restore "zai4" before y/w and abbreviated-final normalization runs.
+    // Nasal rules avoid consuming the n/g of the next syllable when it is
+    // followed by a vowel (for example, ma3ni3 must remain two syllables).
+    "/a([1-4])ng(?![aeiouv])/": "ang$1",
+    "/a([1-4])n(?![aeiouv])/": "an$1",
+    "/a([1-4])i/": "ai$1",
+    "/a([1-4])o/": "ao$1",
+    "/e([1-4])ng(?![aeiouv])/": "eng$1",
+    "/e([1-4])n(?![aeiouv])/": "en$1",
+    "/e([1-4])i/": "ei$1",
+    "/e([1-4])r/": "er$1",
+    "/i([1-4])ng(?![aeiouv])/": "ing$1",
+    "/i([1-4])n(?![aeiouv])/": "in$1",
+    "/o([1-4])ng(?![aeiouv])/": "ong$1",
+    "/o([1-4])u/": "ou$1",
+    "/u([1-4])n(?![aeiouv])/": "un$1",
+    "/v([1-4])n(?![aeiouv])/": "vn$1",
+    "/v([1-4])e/": "ve$1",
+
+    // ü → v (internal representation; v is never a valid pinyin letter,
+    // so this avoids ambiguity with u).
+    "ü": "v",
+
+    // y = i (or ü when before u-sound), w = u.
+    // Longest first: full syllables before bare prefixes.
+    "yuan": "van",
+    "yue":  "ve",
+    "yun":  "vn",
+    "yong": "iong",
+    "yang": "iang",
+    "yao":  "iao",
+    "yan":  "ian",
+    "yin":  "in",
+    "ying": "ing",
+    "you":  "iou",
+    "ye":   "ie",
+    "yi":   "i",
+    "yu":   "v",
+    "yo":   "io",
+    "wang": "uang",
+    "wai":  "uai",
+    "wan":  "uan",
+    "weng": "ueng",
+    "wei":  "uei",
+    "wen":  "uen",
+    "wo":   "uo",
+    "wa":   "ua",
+    "wu":   "u",
+
+    // j/q/x cannot be followed by plain u in Mandarin; restore to ü (=v).
+    "ju": "jv",
+    "qu": "qv",
+    "xu": "xv",
+
+    // searcherr requires writing by pronunciation, not pinyin spelling.
+    "iu": "iou",
+    "ui": "uei",
+    "un": "uen",
+
+    // Drop whitespace — mode engine handles everything character by character.
+    " ": "",
+    "\n": "",
+    "\t": ""
+  },
+
+  // The mode engine tries each entry top-to-bottom and applies the first match.
+  // Order matters: longer syllables must be listed before shorter ones so that
+  // the engine matches e.g. "iang" rather than "i" + "a" + "n" + "g".
+  //
+  // Encoding source: the searcherr PDF was authored in TengwarParmaite. Its
+  // embedded keyboard chars were decoded 1:1 against Tecendil's CSUR token
+  // dictionaries, giving the exact glyph for every syllable. Key design points:
+  //   - Main vowel   → tehta ABOVE the initial (a/o/e/i/u/ü).
+  //   - Medial glide → tehta BELOW the initial (i=[dot-below],
+  //     u=[left-curl-below], ü=[double-dot-below]).
+  //   - Falling diphthongs (ai/ei/ao/ou) use Beleriand style: the FIRST vowel
+  //     is a full tengwa ({osse}/{yanta}/{anna}) and the second is a tehta.
+  //   - Retroflex zh/ch/sh = base tengwa + lower hook [left-hook-below]
+  //     (requires TengwarArtano for the left-lower anchor; see invariant).
+  //   - Nasal -n = {nuumen} tail, -ng = {nwalme} tail.
+  "map": {
+    // ---------------------------------------------------------------
+    // 4-character finals (medial + vowel + nasal)
+    // ---------------------------------------------------------------
+    "iang": "[triple-dot-above][dot-below]{nwalme}",
+    "uang": "[triple-dot-above][left-curl-below]{nwalme}",
+    "iong": "[dot-below][right-curl]{nwalme}",
+    "ueng": "[left-curl-below][acute]{nwalme}",
+
+    // ---------------------------------------------------------------
+    // 3-character finals
+    // ---------------------------------------------------------------
+    // Triphthongs (Beleriand core vowel + medial below + tehta above)
+    "iao": "[dot-below]{osse}[right-curl]",
+    "iou": "[dot-below]{anna}[left-curl]",
+    "uai": "[left-curl-below]{osse}[dot-above]",
+    "uei": "[left-curl-below]{yanta}[dot-above]",
+    // medial + vowel + -n
+    "ian": "[dot-below][triple-dot-above]{nuumen}",
+    "uan": "[left-curl-below][triple-dot-above]{nuumen}",
+    "van": "[triple-dot-above][double-dot-below]{nuumen}",
+    // vowel + -ng (no medial)
+    "ang": "[triple-dot-above]{nwalme}",
+    "eng": "[acute]{nwalme}",
+    "ing": "[dot-below]{nwalme}",
+    "ong": "[right-curl]{nwalme}",
+
+    // ---------------------------------------------------------------
+    // 2-character finals with nasal endings
+    // ---------------------------------------------------------------
+    "an":  "[triple-dot-above]{nuumen}",
+    "en":  "[acute]{nuumen}",
+    "in":  "[dot-below]{nuumen}",
+    "uen": "[acute][left-curl-below]{nuumen}",
+    "vn":  "[double-dot-below]{nuumen}",
+
+    // ---------------------------------------------------------------
+    // 2-character finals — diphthongs
+    // Falling diphthongs: first vowel is a full tengwa, second is a tehta.
+    // ---------------------------------------------------------------
+    "ai": "{osse}[dot-above]",
+    "ei": "{yanta}[dot-above]",
+    "ao": "{osse}[right-curl]",
+    "ou": "{anna}[left-curl]",
+    // Rising diphthongs: medial glide below + main vowel above.
+    "ia": "[triple-dot-above][dot-below]",
+    "ie": "[acute][dot-below]",
+    "ua": "[triple-dot-above][left-curl-below]",
+    "uo": "[right-curl][left-curl-below]",
+    "ve": "[acute][double-dot-below]",
+
+    // ---------------------------------------------------------------
+    // 2-character initials (must come before 1-char initials)
+    // Retroflex zh/ch/sh = base tengwa + lower hook [right-curl-below].
+    // ---------------------------------------------------------------
+    "zh": "{extended-tinco}[left-hook-below]",
+    "ch": "{extended-ando}[left-hook-below]",
+    "sh": "{thuule}[left-hook-below]",
+
+    // ng standalone / final tail — before 1-char initials.
+    "ng": "{nwalme}",
+
+    // ---------------------------------------------------------------
+    // 1-character initials
+    // ---------------------------------------------------------------
+    "b": "{parma}",
+    "p": "{umbar}",
+    "m": "{malta}",
+    "f": "{formen}",
+    "d": "{tinco}",
+    "t": "{ando}",
+    "n": "{nuumen}",
+    "l": "{lambe}",
+    "g": "{quesse}",
+    "k": "{ungwe}",
+    "h": "{hwesta}",
+    "j": "{extended-calma}",
+    "q": "{extended-anga}",
+    "x": "{harma}",
+    "r": "{roomen}",
+    "z": "{extended-tinco}",
+    "c": "{extended-ando}",
+    "s": "{thuule}",
+
+    // ---------------------------------------------------------------
+    // 1-character finals (single vowels)
+    //   main vowel = tehta above; ü = double-dot-above; er = [breve].
+    // ---------------------------------------------------------------
+    "a": "[triple-dot-above]",
+    "o": "[right-curl]",
+    "e": "[acute]",
+    "i": "[dot-above]",
+    "u": "[left-curl]",
+    "v": "[double-dot-above]",
+    "er": "[breve]",
+
+    // ---------------------------------------------------------------
+    // Tone marks (searcherr: 声调符号写在音节首字母上方)
+    // 1: macron ¯ → [bar-above]   2: acute ´ → [acute]
+    // 3: caron ˇ  → [double-dot-above]   4: grave ` → [grave]
+    // 5 (neutral): omitted
+    // ---------------------------------------------------------------
+    "1": "[bar-above]",
+    "2": "[acute]",
+    "3": "[double-dot-above]",
+    "4": "[grave]"
+  }
+}
