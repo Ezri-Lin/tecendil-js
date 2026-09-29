@@ -1,10 +1,8 @@
 {
   "en": {
     "the-tengwar-transcriber": "The Tengwar Transcriber",
-
     "button.open-menu": "Open Menu",
     "button.close-menu": "Close Menu",
-
     "menu.home": "Home",
     "menu.handbook": "Tengwar Handbook",
     "menu.inside-tecendil": "Inside Tecendil",
@@ -12,30 +10,21 @@
     "menu.whats-new": "What’s New",
     "menu.install": "Install",
     "menu.settings": "Settings",
-
     "message.loading": "Loading...",
-
     "footer.font-credits": "<b>Fonts</b> Tengwar Annatar and Tengwar Telcontar by Johan Winge, Parmaite Tengwar and Tengwar Eldamar by M&aring;ns Bj&ouml;rkman, Tengwar Formal by the <a href=\"http://freetengwar.sourceforge.net/\">Free Tengwar Font Project</a>. Alcarin by Toshi Omagari. Some fonts adapted for the web by Ben Talagan Babut of the Glaemscribe project.",
     "footer.contact": "Got a question? Have some feedback? Want to check a transcription? Just ask ",
     "footer.support-intro": "Enjoying Tecendil?",
     "footer.patreon": "Support me on Patreon",
     "footer.paypal": "Donate with PayPal",
-
     "prompt.title.javascript": "Tecendil requires JavaScript",
-
     "prompt.install": "For offline access, Tecendil can be installed on your device.",
     "button.install": "Install",
     "button.not-now": "Not now",
-
     "prompt.drop-file": "Drop a file anywhere to transcribe it.",
-
     "label.placeholder.try": "Try: “${placeholder}”",
-
     "label.font": "Font: ",
     "font-name.annatar-italic": "Annatar Italic",
-
     "label.mode": "Mode: ",
-
     "label.mode.arabic": "Arabic",
     "menu.mode.arabic": "اللغة العربية (Arabic)",
     "label.mode.english": "English",
@@ -46,7 +35,6 @@
     "menu.mode.english-phonemic": "English Phonemic",
     "label.mode.westron": "Westron",
     "menu.mode.westron-orthographic": "Westron Orthographic",
-
     "label.mode.croatian": "Croatian",
     "menu.mode.croatian": "Hrvatski (Croatian)",
     "label.mode.czech": "Czech",
@@ -77,7 +65,6 @@
     "menu.mode.romanian": "Română (Romanian)",
     "label.mode.slovenian-orthographic": "Slovenian",
     "menu.mode.slovenian-orthographic": "Slovenščina (Slovenian)",
-
     "label.mode.sindarin": "Sindarin",
     "menu.mode.sindarin": "Sindarin (General Mode)",
     "label.mode.quenya": "Quenya",
@@ -86,7 +73,6 @@
     "menu.mode.beleriand": "Sindarin (Beleriand)",
     "label.mode.erebor": "Cirth",
     "menu.mode.erebor": "Cirth: Angerthas Erebor",
-
     "warning.english": "<p><b>CAUTION</b> Tecendil does not translate. What you typed looks like English. For an accurate transcription, select an English mode.</p>",
     "warning.es": "<p><b>ATENCIÓN</b> Tecendil no traduce. Lo que has escrito parece español. Para una transcripción precisa, selecciona un modo español.</p>",
     "warning.it": "<p><b>CAUTION</b> Tecendil does not translate. What you typed looks like Spanish. For an accurate transcription, select a Spanish mode.</p>",
@@ -101,13 +87,10 @@
     "warning.hr": "<p><b>PAŽNJA</b> Tecendil ne prevodi. Ono što ste napisali izgleda kao hrvatski. Za točnu transkripciju odaberite hrvatski način.</p>",
     "warning.cs": "<p><b>POZOR</b> Tecendil nepřekládá. Co píšete, vypadá jako čeština. Pro správný přepis zvolte český mód.</p>",
     "warning.nl": "<p><b>OPGELET</b> Tecendil vertaalt niet. Wat je hebt geschreven lijkt op Nederlands. Voor een nauwkeurige transcriptie, selecteer een Nederlandse modus.</p>",
-
     "tooltip.download": "download",
     "tooltip.layout": "layout",
     "tooltip.share": "share",
-
     "filename.screenshot": "Tecendil screenshot",
-
     "button.patron": "Become a Patron!",
     "welcome": "Welcome to Tecendil",
     "welcome.1": "Hello! My name’s Arno.",
@@ -116,19 +99,15 @@
     "welcome.4": "Type a sentence or name and see it transcribed into Tengwar.",
     "welcome.5": "Note the text is <b>not translated</b>, it is simply written using the Tengwar characters.",
     "welcome.6": "For a correct transcription, select the appropriate language in the <i>Mode</i> menu: English, Italian, Spanish, Quenya or Sindarin. If you're interested in support for other languages, contact me.",
-
     "welcome.7": "Tecendil is a Tengwar transcriber, not a translator",
     "welcome.8": "The text you type is not <i>translated</i>, it is simply written using the Tengwar characters.",
     "welcome.9": "For a correct transcription, pick the language you are writing in from the <b>Mode</b> menu.",
-
     "label.source-eldamo": "Source: <a href=\"https://eldamo.org\">Eldamo</a>",
-
     "label.wikipedia.intro-random": "Practice reading Tengwar with this random article from Wikipedia:",
     "label.wikipedia.intro": "Practice reading Tengwar with this article about “",
     "label.wikipedia.intro.close": "” from Wikipedia:",
     "button.wikipedia.next": "Next Article",
     "button.wikipedia.next-random": "Random Wikipedia Article",
-
     "dialog-title.settings": "Settings",
     "button.close": "Close",
     "button.back": "Back",
@@ -145,47 +124,42 @@
     "settings.theme": "Theme",
     "settings.theme.system": "System Default",
     "settings.theme.light": "Light",
-    "settings.theme.dark": "Dark"
+    "settings.theme.dark": "Dark",
+    "label.mode.english-personal": "English (Personal)",
+    "menu.mode.english-personal": "English (Personal)",
+    "label.mode.pinyin": "Chinese Pinyin",
+    "menu.mode.pinyin": "Hanyu Pinyin (汉语拼音)",
+    "warning.pinyin": "<p><b>Note.</b> This mode transcribes Hanyu Pinyin (e.g. <i>ni3hao3</i> or <i>xièxiè</i>) into Tengwar using searcherr's pinyin convention. It does not translate the input. Tones 1–4 are written above the initial; tone 5 (neutral) is unmarked.</p><p><b>Cross-mode warning.</b> In this mode the doubled bow (<code>{breathing}</code>) marks <b>aspiration</b> (e.g. <i>p</i> = /pʰ/), not voicing. This is the opposite of English / Quenya / Sindarin modes where the doubled bow marks the voiced member of a pair. The base <code>{umbar}</code> also reads as /p/ here (voiceless unaspirated), not /b/. See the docs/ledgers/invariants/pinyin-mode.md for the full cross-mode semantic table.</p>"
   },
   "cs": {
     "the-tengwar-transcriber": "Transkripce do Tengwaru",
-
     "button.open-menu": "Otevřít menu",
     "button.close-menu": "Zavřít menu",
-
     "menu.home": "Domů",
     "menu.handbook": "Příručka Tengwar",
     "menu.inside-tecendil": "Uvnitř Tecendilu",
     "menu.whats-new": "Co je nového?",
     "menu.install": "Instalace",
     "menu.settings": "Nastavení",
-
     "footer.font-credits": "<b>Fonty</b> Tengwar Annatar a Tengwar Telcontar stvořil Johan Winge, Parmaite Tengwar a Tengwar Eldamar stvořil M&aring;ns Bj&ouml;rkman, Tengwar Formal je z projektu <a href=\"http://freetengwar.sourceforge.net/\">Free Tengwar Font Project</a>. Alcarin stvořil Toshi Omagari. Některé fonty byly přizpůsobil pro web Ben Talagan Babut z projektu Glaemscribe.",
     "footer.contact": "Máte otázku? Máte nějaký feedback? Chcete opravit přepis? Zeptejte se ",
     "footer.support-intro": "Líbí se vám Tecendil?",
     "footer.patreon": "Podpora na Patreonu",
     "footer.paypal": "Podpora přes PayPal",
-
     "prompt.install": "Tecendil může být instalován na zařízení pro fungování offline.",
     "button.install": "Instalovat",
     "button.not-now": "Teď ne",
-
     "prompt.drop-file": "Přetáhněte soubor pro jeho přepis.",
-
     "label.placeholder.try": "Vyzkoušejte: “${placeholder}”",
-
     "label.font": "Font: ",
     "font-name.annatar-italic": "Annatar Italic",
-
     "label.mode": "Mód: ",
-
     "label.mode.english": "Anglicky",
     "menu.mode.english": "Anglicky",
     "label.mode.english-classical": "Anglicky tradičně",
     "menu.mode.english-classical": "Anglicky tradičně",
     "label.mode.english-phonemic": "Anglicky foneticky",
     "menu.mode.english-phonemic": "Anglicky foneticky",
-
     "label.mode.spanish": "Španělsky",
     "menu.mode.spanish": "Español (Španělsky)",
     "label.mode.hungarian": "Maďarský",
@@ -195,7 +169,6 @@
     "label.mode.italian-full": "Italiano Esteso",
     "menu.mode.italian-full": "Italiano Esteso (Italsky plný mód)",
     "label.mode.lojban": "Lojban",
-
     "label.mode.sindarin": "Sindarština",
     "menu.mode.sindarin": "Sindarština",
     "label.mode.quenya": "Quenijština",
@@ -204,14 +177,11 @@
     "menu.mode.beleriand": "Sindarština (Beleriand)",
     "label.mode.erebor": "Cirth",
     "menu.mode.erebor": "Cirth: Angerthas Erebor",
-
     "warning.english": "<p><b>POZOR</b> Tecendil nepřekládá. Co píšete vypadá jako angličtina. Pro správný přepis angličtiny se přepněte do anglického módu.</p>",
     "warning.elvish": "<p><b>POZOR</b> To nevypadá jako angličtina. Je to sindarština nebo quenijština? Pro správný přepis zvlte prosím sindarijský, quenijský nebo Beleriand mód.</p>",
-
     "tooltip.download": "stáhnout",
     "filename.screenshot": "Tecendil přepis",
     "tooltip.share": "sdílet",
-
     "button.patron": "Staňte se Patronem!",
     "welcome": "Vítejte na Tecendilu",
     "welcome.1": "Zdravím! Jmenuji se Arno.",
@@ -220,17 +190,13 @@
     "welcome.4": "Napište větu nebo libovolné jméno a podívejte se, jak vypadá přepsaná do Tengwaru.",
     "welcome.5": "Pozor, text <b>není přeložený</b>, je jenom přepsaný pomocí znaků Tengwar.",
     "welcome.6": "Pro správný přepis zvolte odpovídající jazyk v menu <i>Mód</i>: anglicky, italsky, španělsky, česky, quenijsky, sindarijsky. Pokud vás zajímá podpora i pro nějaký jiný jazyk, kontaktujte mě.",
-
     "welcome.7": "Tecendil je transkriptor Tengwaru, ne překladač",
     "welcome.8": "Text, který napíšete, není <i>přeložen</i>, je jednoduše napsán pomocí znaků Tengwar.",
     "welcome.9": "Pro správný přepis vyberte jazyk, ve kterém píšete, z nabídky <b>Režim</b>.",
-
     "label.source-eldamo": "Zdroj: <a href=\"https://eldamo.org\">Eldamo</a>",
-
     "label.wikipedia.intro-random": "Procvičte si čtení Tengwaru v tomto náhodném článku z Wikipedie:",
     "label.wikipedia.intro": "Procvičte si čtení Tengwaru v článku o “",
     "label.wikipedia.intro.close": "” z Wikipedie:",
-
     "dialog-title.settings": "Nastavení",
     "button.close": "Zavřít",
     "button.back": "Zpět",
@@ -243,37 +209,34 @@
     "description.settings.wikipedia": "Zobraz článek z Wikipedie",
     "settings.language": "Jazyky",
     "settings.language.default": "Výchozí jazyk systému",
-    "settings.dark-mode": "Tmavý režim"
+    "settings.dark-mode": "Tmavý režim",
+    "label.mode.english-personal": "English (Personal)",
+    "menu.mode.english-personal": "English (Personal)",
+    "label.mode.pinyin": "Čínština (Pchin-jin)",
+    "menu.mode.pinyin": "Pchin-jin (汉语拼音)",
+    "warning.pinyin": "<p><b>Note.</b> This mode transcribes Hanyu Pinyin (e.g. <i>ni3hao3</i> or <i>xièxiè</i>) into Tengwar using searcherr's pinyin convention. It does not translate the input. Tones 1–4 are written above the initial; tone 5 (neutral) is unmarked.</p><p><b>Cross-mode warning.</b> In this mode the doubled bow (<code>{breathing}</code>) marks <b>aspiration</b> (e.g. <i>p</i> = /pʰ/), not voicing. This is the opposite of English / Quenya / Sindarin modes where the doubled bow marks the voiced member of a pair. The base <code>{umbar}</code> also reads as /p/ here (voiceless unaspirated), not /b/. See the docs/ledgers/invariants/pinyin-mode.md for the full cross-mode semantic table.</p>"
   },
   "de": {
     "the-tengwar-transcriber": "Der Tengwar Transkriptor",
-
     "button.open-menu": "Menü öffnen",
     "button.close-menu": "Menü schließen",
-
     "menu.home": "Zuhause",
     "menu.handbook": "Tengwar Handbuch",
     "menu.install": "Installieren",
     "menu.whats-new": "Was gibt's Neues?",
     "menu.settings": "Einstellungen",
-
     "footer.font-credits": "<b>Schriften </b> Tengwar Annatar und Tengwar Telcontar von Johan Winge, Parmaite Tengwar und Tengwar Eldamar von M&aring; Björkman, Tengwar Formal von der <a href='http://freetengwar.sourceforge.net/'> Free Tengwar Font Project </a>.",
     "footer.contact": "Hast du eine Frage? Hast du Feedback? Möchten Sie eine Transkription überprüfen? Einfach fragen",
     "footer.support-intro": "Tecendil genießen?",
     "footer.patreon": "Unterstütze mich auf Patreon",
     "footer.paypal": "Spende mit PayPal",
-
     "prompt.install": "Für den Offline-Zugriff kann Tecendil auf Ihrem Gerät installiert werden.",
     "button.install": "Installieren",
     "button.not-now": "Nicht jetzt",
-
     "label.placeholder.try": "Versuchen: „${placeholder}“",
-
     "label.font": "Schriftart : ",
     "font-name.annatar-italic": "Annatar Kursiv",
-
     "label.mode": "Modus : ",
-
     "label.mode.english": "Englisch",
     "menu.mode.english": "English (Englisch)",
     "label.mode.english-classical": "Englisch (traditionell)",
@@ -282,7 +245,6 @@
     "menu.mode.english-phonemic": "English Phonemic (Englisch - phonemisch)",
     "menu.mode.westron-orthographic": "Westron orthographisch",
     "label.mode.westron": "Westron",
-
     "label.mode.gernman": "Deutsch",
     "menu.mode.gernman": "Deutsch",
     "label.mode.spanish": "Spanisch",
@@ -292,20 +254,16 @@
     "label.mode.italian": "Italienisch",
     "menu.mode.italian": "Italiano (Italienisch)",
     "label.mode.lojban": "Lojban",
-
     "label.mode.sindarin": "Sindarin",
     "menu.mode.sindarin": "Sindarin (Allgemeiner Modus)",
     "label.mode.quenya": "Quenya",
     "label.mode.beleriand": "Sindarin (Beleriand)",
     "menu.mode.beleriand": "Sindarin (Beleriand)",
     "label.mode.erebor": "Cirth",
-
     "warning.elvish": "<p><b>VORSICHT</b>Das sieht nicht nach Englisch aus. Ist das Sindarin oder Quenya? Für eine genaue Transkription wählen Sie den Sindarin-, Quenya- oder Beleriand-Modus</p>",
-
     "tooltip.download": "Herunterladen",
     "filename.screenshot": "Tecendil Bildschirmfoto",
     "tooltip.share": "Tielen",
-
     "button.patron": "Werden Sie Schirmherr!",
     "welcome": "Willkommen bei Tecendil",
     "welcome.1": "Hallo! Ich heiße Arno.",
@@ -314,17 +272,14 @@
     "welcome.4": "Gib einen Satz oder Namen ein um ihn in Tengwar zu transkribieren.",
     "welcome.5": "Beachte, dass der Text <b>nicht übersetzt</b>, sondern nur mit Tengwar-Zeichen geschrieben wird.",
     "welcome.6": "Um eine korrekte Transkription zu erhalten, muss im Menü Modus die richtige Sprache ausgewählt werden: Englisch, Spanisch, Italienisch, Quenya oder Sindarin. Wenn Du Unterstützung für andere Sprachen brauchst, kontaktiere mich unter",
-
     "welcome.7": "Tecendil ist ein Tengwar-Transkriptor, kein Übersetzer",
     "welcome.8": "Der Text, den Sie eingeben, wird nicht <i>übersetzt</i>, sondern einfach mit den Tengwar-Zeichen geschrieben.",
     "welcome.9": "Für eine korrekte Transkription wählen Sie die Sprache, in der Sie schreiben, aus dem <b>Modus</b>-Menü.",
-
     "label.wikipedia.intro-random": "Üben Sie das Lesen von Tengwar mit diesem zufälligen Artikel aus Wikipedia:",
     "label.wikipedia.intro": "Üben Sie das Lesen von Tengwar mit diesem Artikel über„",
     "label.wikipedia.intro.close": "“ von Wikipedia:",
     "button.wikipedia.next": "Nächster Artikel",
     "button.wikipedia.next-random": "Zufälliger Wikipedia-Artikel",
-
     "dialog-title.settings": "Einstellungen",
     "button.close": "Schließen",
     "button.back": "Zurück",
@@ -337,44 +292,38 @@
     "description.settings.wikipedia": "Wikipedia-Artikel anzeigen",
     "settings.language": "Sprache",
     "settings.language.default": "Standardwert",
-    "settings.dark-mode": "Dunkler Modus"
+    "settings.dark-mode": "Dunkler Modus",
+    "label.mode.english-personal": "English (Personal)",
+    "menu.mode.english-personal": "English (Personal)",
+    "label.mode.pinyin": "Chinesisches Pinyin",
+    "menu.mode.pinyin": "Hanyu Pinyin (汉语拼音)",
+    "warning.pinyin": "<p><b>Note.</b> This mode transcribes Hanyu Pinyin (e.g. <i>ni3hao3</i> or <i>xièxiè</i>) into Tengwar using searcherr's pinyin convention. It does not translate the input. Tones 1–4 are written above the initial; tone 5 (neutral) is unmarked.</p><p><b>Cross-mode warning.</b> In this mode the doubled bow (<code>{breathing}</code>) marks <b>aspiration</b> (e.g. <i>p</i> = /pʰ/), not voicing. This is the opposite of English / Quenya / Sindarin modes where the doubled bow marks the voiced member of a pair. The base <code>{umbar}</code> also reads as /p/ here (voiceless unaspirated), not /b/. See the docs/ledgers/invariants/pinyin-mode.md for the full cross-mode semantic table.</p>"
   },
   "eo": {
     "the-tengwar-transcriber": "Transsrkibilo por Tengvaro",
-
     "button.open-menu": "Malfermu menuo",
     "button.close-menu": "Fermu menuo",
-
     "menu.home": "Ĉefpago",
     "menu.handbook": "Manlibro de Tengvaro (angla)",
     "menu.inside-tecendil": "Kiel Tecendil funkcias?",
     "menu.whats-new": "Kio nova?",
     "menu.install": "Instalu (Chrome)",
     "menu.settings": "Agordaro",
-
     "message.loading": "Ŝarĝado...",
-
     "footer.font-credits": "<b>Uzataj tiparoj</b>: Tengwar Annatar kaj Tengwar Telcontar kreitaj de Johan Winge, Parmaite Tengwar kaj Tengwar Eldamar kreitaj M&aring;ns Bj&ouml;rkmana, Tengwar Formal el retejo <a href=\"http://freetengwar.sourceforge.net/\">Free Tengwar Font Project</a>. Kelkaj tiparoj estis adaptitaj por reta versio per Ben Talagan Babut de projekto Glaemscribe.",
     "footer.contact": "Ĉu vi havas demandojn aŭ komentojn? Ĉu vi volas kontroli transskribon? Simple skribu al ni (anlgla) ",
     "footer.support-intro": "Ĉu Tecendil? plaĉas al vi?",
     "footer.patreon": "Subtenu min per Patreon",
     "footer.paypal": "Donacu per PayPal",
-
     "prompt.title.javascript": "Tecendil bezonas JavaScript",
-
     "prompt.install": "Vi povas instali Tecendil en via aparato kaj uzi ĝin eksterrete (offline)",
     "button.install": "Instalu",
     "button.not-now": "Ne nun",
-
     "prompt.drop-file": "Demetu dosieron ien ajn por transskribi ĝin.",
-
     "label.placeholder.try": "Provu: “${placeholder}”",
-
     "label.font": "Tiparo: ",
     "font-name.annatar-italic": "Annatar Italic",
-
     "label.mode": "Modo: ",
-
     "label.mode.english": "Angllingva",
     "menu.mode.english": "Angllingva",
     "label.mode.english-classical": "Angllingva tradicia",
@@ -383,7 +332,6 @@
     "menu.mode.english-phonemic": "English Ph. (angl. fonetika)",
     "label.mode.westron": "Westron",
     "menu.mode.westron-orthographic": "Westron ortografia",
-
     "label.mode.czech": "Ĉeĥlingva",
     "menu.mode.czech": "čeština (Ĉeĥlingva)",
     "label.mode.german-orthographic": "Germanlingva",
@@ -408,7 +356,6 @@
     "menu.mode.romanian": "Română (Rumanlingva)",
     "label.mode.slovenian-orthographic": "Slovenlingva",
     "menu.mode.slovenian-orthographic": "Slovenščina (Slovenlingva)",
-
     "label.mode.sindarin": "Sindarin",
     "menu.mode.sindarin": "Sindarin (Ĝenerala Modo)",
     "label.mode.quenya": "Quenya",
@@ -417,15 +364,12 @@
     "menu.mode.beleriand": "Sindarin (Beleriand)",
     "label.mode.erebor": "Cirth",
     "menu.mode.erebor": "Cirth: Angerthas Erebor",
-
     "warning.general": "<p><b>Atentu!</b>Uzu modon ĝustan por lingvo kiu vi uzas. Alie, la rezultoj povas esti malĝustaj.</p>",
     "warning.esperanto": "<p><b>Atentu!</b> Tecendil <b>ne estas</b> tradukilo! Elektu modon ĝustan por lingvo kiun vi uzas ekz. Esperanto</p>",
     "warning.elvish": "<p><b>Atentu!</b> Tiu ne ŝajnas konata ligvo. Ĉu tio estas Sindarin or Quenya? Se jes, uzu ĝustan modon por Sindarin, Quenya aŭ belerianda skribo.</p>",
-
     "tooltip.download": "elŝutu",
     "filename.screenshot": "Tecendil_screenshot",
     "tooltip.share": "(dis)konigu",
-
     "button.patron": "Fariĝu Patrono!",
     "welcome": "Bonvenon en Tecendil",
     "welcome.1": "Saluton, mi nomiĝas Arno!",
@@ -434,19 +378,15 @@
     "welcome.4": "Enskribu ian vorton, frazon aŭ nomon kaj vidu kiel ĝi aspektas transskribinta en Tengvaro",
     "welcome.5": "Memoru <i>tio ne estas tradukaĵo en elfajn lingvojn!</i> Simple, tio estas la teksto skribita per signoj de Tengvaro.",
     "welcome.6": "Por ke la ĝusta transskribo, en la menuo <i>Modo</i> elektu la ĝustan lingvon: la angla, esperanto, la itala, quenya, sindarin, aŭ alia. Se vi volas helpi efektivigi modojn por aliaj lingvoj, bonvolu kontakti min.",
-
     "welcome.7": "Tecendil estas Tengwar transskribilo, ne tradukilo",
     "welcome.8": "La teksto, kiun vi tajpas, ne estas <i>tradukita</i>, ĝi estas simple skribita uzante la Tengwar-karakterojn.",
     "welcome.9": "Por ĝusta transskribo, elektu la lingvon, en kiu vi skribas, el la <b>Modo</b> menuo.",
-
     "label.source-eldamo": "Fonto: <a href=\"https://eldamo.org\">Eldamo</a>",
-
     "label.wikipedia.intro-random": "Praktiku legi Tengvaron en ĉi tiu hazarda paĝo el Vikipedio:",
     "label.wikipedia.intro": "Praktiku legi Tengvaron en ĉi tiu paĝo pri“",
     "label.wikipedia.intro.close": "” el Vikipedio:",
     "button.wikipedia.next": "Sekva paĝo",
     "button.wikipedia.next-random": "Hazarda paĝo el Vikipedio",
-
     "dialog-title.settings": "Agordaro",
     "button.close": "Malfermu",
     "button.back": "Reen",
@@ -463,38 +403,35 @@
     "settings.theme": "Etoso",
     "settings.theme.system": "Defaŭlta por sistemo",
     "settings.theme.light": "Hela",
-    "settings.theme.dark": "Malhela"
+    "settings.theme.dark": "Malhela",
+    "label.mode.english-personal": "English (Personal)",
+    "menu.mode.english-personal": "English (Personal)",
+    "label.mode.pinyin": "Ĉina Pinjino",
+    "menu.mode.pinyin": "Hanyu Pinyin (汉语拼音)",
+    "warning.pinyin": "<p><b>Note.</b> This mode transcribes Hanyu Pinyin (e.g. <i>ni3hao3</i> or <i>xièxiè</i>) into Tengwar using searcherr's pinyin convention. It does not translate the input. Tones 1–4 are written above the initial; tone 5 (neutral) is unmarked.</p><p><b>Cross-mode warning.</b> In this mode the doubled bow (<code>{breathing}</code>) marks <b>aspiration</b> (e.g. <i>p</i> = /pʰ/), not voicing. This is the opposite of English / Quenya / Sindarin modes where the doubled bow marks the voiced member of a pair. The base <code>{umbar}</code> also reads as /p/ here (voiceless unaspirated), not /b/. See the docs/ledgers/invariants/pinyin-mode.md for the full cross-mode semantic table.</p>"
   },
   "es": {
     "the-tengwar-transcriber": "El transcriptor de Tengwar",
-
     "button.open-menu": "Abrir el menú",
     "button.close-menu": "Cerrar el menú",
-
     "menu.home": "Bienvenida",
     "menu.handbook": "Manual de Tengwar",
     "menu.inside-tecendil": "Tecendil de cerca",
     "menu.whats-new": "¿Qué hay de nuevo?",
     "menu.install": "Instalar",
     "menu.settings": "Ajustes",
-
     "footer.font-credits": "<b>Fuentes</b> Tengwar Annatar y Tengwar Telcontar de Johan Winge, Parmaite Tengwar y Tengwar Eldamar de M&aring;ns Bj&ouml;rkman, Tengwar Formal del <a href = 'http: //freetengwar.sourceforge.net/'> Free Tengwar Font Project </a>.",
     "footer.contact": "¿Tienes alguna pregunta? ¿Tienes comentarios? ¿Quieres revisar una transcripción? Solo pregunta: ",
     "footer.support-intro": "¿Te gusta Tecendil?",
     "footer.patreon": "Apoyame en Patreon",
     "footer.paypal": "Dona con PayPal",
-
     "prompt.install": "Para el acceso sin conexión, Tecendil se puede instalar en su dispositivo.",
     "button.install": "Instalar",
     "button.not-now": "Ahora no",
-
     "label.placeholder.try": "Pruebe : «${placeholder}»",
-
     "label.font": "Fuente : ",
     "font-name.annatar-italic": "Annatar Itálico",
-
     "label.mode": "Modo : ",
-
     "label.mode.english": "inglés",
     "menu.mode.english": "inglés",
     "label.mode.english-classical": "inglés tradicional",
@@ -503,7 +440,6 @@
     "menu.mode.english-phonemic": "inglés fonémico",
     "menu.mode.westron-orthographic": "westron ortográfico",
     "label.mode.westron": "westron",
-
     "label.mode.czech": "checo",
     "menu.mode.czech": "checo (čeština)",
     "label.mode.german-orthographic": "alemán",
@@ -526,18 +462,14 @@
     "menu.mode.brazilian-portuguese": "portugués brasileño",
     "label.mode.slovenian-orthographic": "esloveno",
     "menu.mode.slovenian-orthographic": "esloveno (Slovenščina)",
-
     "label.mode.sindarin": "sindarin",
     "menu.mode.sindarin": "sindarin (Modo general)",
     "label.mode.quenya": "quenya",
     "label.mode.beleriand": "sindarin (Beleriand)",
     "label.mode.erebor": "cirth",
-
     "warning.elvish": "<p><b>ATENCIÓN</b>Esto no se parece al inglés. ¿Es esto sindarin o quenya? Para una transcripción precisa, seleccione el modo Sindarin, Quenya o Beleriand</p>",
-
     "tooltip.download": "Descargar",
     "filename.screenshot": "Captura de pantalla de Tecendil",
-
     "button.patron": "¡Conviértete en un patrón!",
     "welcome": "Bienvenido a Tecendil",
     "welcome.1": "¡Hola! Me llamo Arno.",
@@ -546,11 +478,9 @@
     "welcome.4": "Grabe una frase o nombre y véala transcrita en Tengwar",
     "welcome.5": "Tenga en cuenta que el texto <b>no está traducido,</b> simplemente se escribe usando los caracteres Tengwar.",
     "welcome.6": "Para que la transcripción sea correcta, debe seleccionar el idioma apropiado en el menú <i>Modo</i>:  español, italiano, inglés, quenya o sindarin. Si estás interesado en apoyar otros idiomas, contáctame..",
-
     "welcome.7": "Tecendil es un transcriptor de Tengwar, no un traductor",
     "welcome.8": "El texto que escribes no está <i>traducido</i>, simplemente está escrito usando los caracteres Tengwar.",
     "welcome.9": "Para una transcripción correcta, selecciona el idioma en el que estás escribiendo desde el menú <b>Modo</b>.",
-
     "dialog-title.settings": "Ajustes",
     "button.close": "Cerrar",
     "button.back": "Regresar",
@@ -565,42 +495,37 @@
     "placeholder-1": "estrella",
     "placeholder-2": "Todo lo que es oro no brilla",
     "placeholder-3": "Hola!",
-    "placeholder-4": "plata"
+    "placeholder-4": "plata",
+    "label.mode.english-personal": "English (Personal)",
+    "menu.mode.english-personal": "English (Personal)",
+    "label.mode.pinyin": "Pinyin chino",
+    "menu.mode.pinyin": "Hanyu Pinyin (汉语拼音)",
+    "warning.pinyin": "<p><b>Note.</b> This mode transcribes Hanyu Pinyin (e.g. <i>ni3hao3</i> or <i>xièxiè</i>) into Tengwar using searcherr's pinyin convention. It does not translate the input. Tones 1–4 are written above the initial; tone 5 (neutral) is unmarked.</p><p><b>Cross-mode warning.</b> In this mode the doubled bow (<code>{breathing}</code>) marks <b>aspiration</b> (e.g. <i>p</i> = /pʰ/), not voicing. This is the opposite of English / Quenya / Sindarin modes where the doubled bow marks the voiced member of a pair. The base <code>{umbar}</code> also reads as /p/ here (voiceless unaspirated), not /b/. See the docs/ledgers/invariants/pinyin-mode.md for the full cross-mode semantic table.</p>"
   },
   "fr": {
     "the-tengwar-transcriber": "Le Transcripteur de Tengwar",
-
     "button.open-menu": "Ouvrir le menu",
     "button.close-menu": "Fermer le menu",
-
     "menu.home": "Accueil",
     "menu.handbook": "Manuel de Tengwar",
     "menu.inside-tecendil": "Tecendil à la loupe",
     "menu.whats-new": "Quoi de neuf?",
     "menu.install": "Installer",
     "menu.settings": "Réglages",
-
     "message.loading": "Chargement en cours...",
-
     "footer.font-credits": "<b>Polices</b> Tengwar Annatar et Tengwar Telcontar par Johan Winge, Parmaite Tengwar et Tengwar Eldamar par M&aring;ns Bj&ouml;rkman, Tengwar Formal par <a href = 'http: //freetengwar.sourceforge.net/'> Free Tengwar Font Project </a>. Certains polices adaptées pour le web par Ben Talagan Babut pour le project Glaemscribe",
     "footer.contact": "Tu as une question? Tu as des commentaires? Tu veux vérifier une transcription? Il suffit de demander: ",
     "footer.support-intro": "Tu apprécies Tecendil?",
     "footer.patreon": "Soutiens-moi sur Patreon",
     "footer.paypal": "Fais une donation avec PayPal",
-
     "prompt.install": "Pour un accès hors ligne, Tecendil peut être installé sur ton appareil.",
     "button.install": "Installer",
     "button.not-now": "Pas maintenant",
-
     "prompt.drop-file": "Dépose un fichier n‘importe où pour le transcrire.",
-
     "label.placeholder.try": "Essaye: «${placeholder}»",
-
     "label.font": "Police : ",
     "font-name.annatar-italic": "Annatar Italique",
-
     "label.mode": "Mode : ",
-
     "label.mode.english": "anglais",
     "menu.mode.english": "English (anglais)",
     "label.mode.english-classical": "anglais traditionnel",
@@ -609,7 +534,6 @@
     "menu.mode.english-phonemic": "English Phonemic (anglais phonémique)",
     "label.mode.westron": "westron",
     "menu.mode.westron-orthographic": "westron orthographique",
-
     "label.mode.czech": "tchèque",
     "menu.mode.czech": "tchèque (čeština)",
     "label.mode.german-orthographic": "allemand",
@@ -636,7 +560,6 @@
     "menu.mode.romanian": "roumain (română)",
     "label.mode.slovenian-orthographic": "slovène",
     "menu.mode.slovenian-orthographic": "slovène (Slovenščina)",
-
     "label.mode.sindarin": "sindarin",
     "menu.mode.sindarin": "sindarin (mode général)",
     "label.mode.quenya": "quenya",
@@ -645,13 +568,10 @@
     "menu.mode.beleriand": "sindarin (Beleriand)",
     "label.mode.erebor": "cirth",
     "menu.mode.erebor": "cirth",
-
     "warning.elvish": "<p><b>ATTENTION</b> Cela ne ressemble pas à l'anglais. Est-ce sindarin ou quenya? Pour une transcription précise, sélectionner le mode sindarin, quenya ou beleriand.</p>",
-
     "tooltip.download": "Télécharger",
     "filename.screenshot": "Tecendil capture d'écran",
     "tooltip.share": "Partager",
-
     "button.patron": "Deviens mécène !",
     "welcome": "Bienvenue à Tecendil",
     "welcome.1": "Salut ! Je m'appelle Arno.",
@@ -660,17 +580,14 @@
     "welcome.4": "Tape une phrase ou un nom et vois-le transcrit en Tengwar",
     "welcome.5": "Note que le texte <b>n'est pas traduit </b>, il est simplement écrit en utilisant les caractères Tengwar.",
     "welcome.6": "Pour que la transcription soit correcte, sélectionne la langue appropriée dans le menu <i> Mode </i>: anglais, espagnol, italien, quenya ou sindarin. Malheureusement, le francais n'est pas supporté pour l'instant. Si tu es intéressé à supporter d'autres langues, contacte moi.",
-
     "welcome.7": "Tecendil est un transcripteur de Tengwar, pas un traducteur",
     "welcome.8": "Le texte que vous tapez n'est pas <i>traduit</i>, il est simplement écrit en utilisant les caractères Tengwar.",
     "welcome.9": "Pour une transcription correcte, choisissez la langue dans laquelle vous écrivez dans le menu <b>Mode</b>.",
-
     "label.wikipedia.intro-random": "Entraînez-vous à lire les tengwar avec cet article aléatoire de Wikipedia:",
     "label.wikipedia.intro": "Entraînez-vous à lire les tengwar avec cet article sur “",
     "label.wikipedia.intro.close": "” de Wikipedia:",
     "button.wikipedia.next": "Article Suivant",
     "button.wikipedia.next-random": "Article Aléatoire de Wikipedia",
-
     "dialog-title.settings": "Réglages",
     "button.close": "Fermer",
     "button.back": "Retour",
@@ -681,44 +598,38 @@
     "description.settings.wikipedia": "Afficher un article Wikipedia",
     "settings.language": "Langue",
     "settings.language.default": "Langue du Système",
-    "settings.dark-mode": "Mode Sombre"
+    "settings.dark-mode": "Mode Sombre",
+    "label.mode.english-personal": "English (Personal)",
+    "menu.mode.english-personal": "English (Personal)",
+    "label.mode.pinyin": "Pinyin chinois",
+    "menu.mode.pinyin": "Hanyu Pinyin (汉语拼音)",
+    "warning.pinyin": "<p><b>Note.</b> This mode transcribes Hanyu Pinyin (e.g. <i>ni3hao3</i> or <i>xièxiè</i>) into Tengwar using searcherr's pinyin convention. It does not translate the input. Tones 1–4 are written above the initial; tone 5 (neutral) is unmarked.</p><p><b>Cross-mode warning.</b> In this mode the doubled bow (<code>{breathing}</code>) marks <b>aspiration</b> (e.g. <i>p</i> = /pʰ/), not voicing. This is the opposite of English / Quenya / Sindarin modes where the doubled bow marks the voiced member of a pair. The base <code>{umbar}</code> also reads as /p/ here (voiceless unaspirated), not /b/. See the docs/ledgers/invariants/pinyin-mode.md for the full cross-mode semantic table.</p>"
   },
   "hr": {
     "the-tengwar-transcriber": "Tengwar Transkriptor",
-
     "button.open-menu": "Otvori menu",
     "button.close-menu": "Zatvori menu",
-
     "menu.home": "Početna",
     "menu.handbook": "Tengwar Priručnik",
     "menu.inside-tecendil": "Proviri u Tecendil",
     "menu.whats-new": "Što je novo",
     "menu.install": "Instaliraj",
     "menu.settings": "Postavke",
-
     "message.loading": "Učitavam...",
-
     "footer.font-credits": "<b>Fontovi</b> Tengwar Annatar i Tengwar Telcontar by Johan Winge, Parmaite Tengwar i Tengwar Eldamar by M&aring;ns Bj&ouml;rkman, Tengwar Formal by the <a href=\"http://freetengwar.sourceforge.net/\">Free Tengwar Font Project</a>. Alcarin by Toshi Omagari. Određeni fontovi prilagođeni za web od strane Ben Talagan Babut iz Glaemscribe project.",
     "footer.contact": "Imate pitanje, povratnu informaciju ili želite provjeriti transkripciju? Postavite pitanje ",
     "footer.support-intro": "Uživate u Tecendil web stranici?",
     "footer.patreon": "Podržite me na Patreon-u",
     "footer.paypal": "Donirajte na PayPal",
-
     "prompt.title.javascript": "Tecendil-u je potreban JavaScript",
-
     "prompt.install": "Za offline pristup, Tecendil je moguće instalirati na vaš uređaj.",
     "button.install": "Instaliraj",
     "button.not-now": "Ne sada",
-
     "prompt.drop-file": "Spustite datoteku bilo gdje za njenu transkripciju.",
-
     "label.placeholder.try": "Pokušajte: “${placeholder}”",
-
     "label.font": "Font: ",
     "font-name.annatar-italic": "Annatar Italic",
-
     "label.mode": "Mod: ",
-
     "label.mode.english": "Engleski",
     "menu.mode.english": "Engleski",
     "label.mode.english-classical": "Engleski (Tradicionalni)",
@@ -727,7 +638,6 @@
     "menu.mode.english-phonemic": "Engleski (Fonemski)",
     "label.mode.westron": "Westron",
     "menu.mode.westron-orthographic": "Westron (Ortografski)",
-
     "label.mode.croatian": "Hrvatski",
     "menu.mode.croatian": "Hrvatski",
     "label.mode.czech": "Češki",
@@ -756,7 +666,6 @@
     "menu.mode.romanian": "Rumunjski (Romanian)",
     "label.mode.slovenian-orthographic": "Slovenski",
     "menu.mode.slovenian-orthographic": "Slovenski (Slovenian)",
-
     "label.mode.sindarin": "Sindarin",
     "menu.mode.sindarin": "Sindarin (Opći Mod)",
     "label.mode.quenya": "Quenya",
@@ -765,14 +674,11 @@
     "menu.mode.beleriand": "Sindarin (Beleriand)",
     "label.mode.erebor": "Cirth",
     "menu.mode.erebor": "Cirth: Angerthas Erebor",
-
     "warning.english": "<p><b>PAŽNJA</b> Tecendil ne obavlja prevođenje. Izgleda da ste napisali nešto na engleskom jeziku. Za preciznu transkripciju, odaberite Engleski mod.</p>",
     "warning.elvish": "<p><b>PAŽNJA</b> Čini se da niste unijeli nešto na engleskom jeziku. Je li ovo Sindarin ili Quenya? Za preciznu transkripciju, odaberite Sindarin, Quenya ili Beleriand mod.</p>",
-
     "tooltip.download": "preuzmi",
     "filename.screenshot": "Tecendil snimka ekrana",
     "tooltip.share": "podijeli",
-
     "button.patron": "Postani Patron!",
     "welcome": "Dobrodošli na Tecendil",
     "welcome.1": "Bok! Ja sam Arno.",
@@ -782,17 +688,14 @@
     "welcome.5": "Imajte na umu da tekst <b>nije preveden</b>, jednostavno je napisan pomoću znakova Tengwar pisma.",
     "welcome.6": "Za ispravnu transkripciju odaberite odgovarajući jezik u izborniku <i>Mod</i>",
     "label.source-eldamo": "Izvor: <a href=\"https://eldamo.org\">Eldamo</a>",
-
     "welcome.7": "Tecendil je Tengwar transkriptor, ne prevoditelj",
     "welcome.8": "Tekst koji upišete nije <i>preveden</i>, jednostavno je napisan koristeći Tengwar znakove.",
     "welcome.9": "Za ispravnu transkripciju, odaberite jezik na kojem pišete iz <b>Mod</b> izbornika.",
-
     "label.wikipedia.intro-random": "Vježbajte čitanje Tengwara uz pomoć nasumičnog članka s Wikipedije:",
     "label.wikipedia.intro": "Vježbajte čitanje Tengwara uz pomoć članka o “",
     "label.wikipedia.intro.close": "” s Wikipedije:",
     "button.wikipedia.next": "Sljedeći članak",
     "button.wikipedia.next-random": "Nasumični Wikipedija članak",
-
     "dialog-title.settings": "Postavke",
     "button.close": "Zatvori",
     "button.back": "Nazad",
@@ -809,40 +712,36 @@
     "settings.theme": "Tema",
     "settings.theme.system": "Zadano",
     "settings.theme.light": "Svjetlo",
-    "settings.theme.dark": "Tamno"
+    "settings.theme.dark": "Tamno",
+    "label.mode.english-personal": "English (Personal)",
+    "menu.mode.english-personal": "English (Personal)",
+    "label.mode.pinyin": "Kineski Pinyin",
+    "menu.mode.pinyin": "Hanyu Pinyin (汉语拼音)",
+    "warning.pinyin": "<p><b>Note.</b> This mode transcribes Hanyu Pinyin (e.g. <i>ni3hao3</i> or <i>xièxiè</i>) into Tengwar using searcherr's pinyin convention. It does not translate the input. Tones 1–4 are written above the initial; tone 5 (neutral) is unmarked.</p><p><b>Cross-mode warning.</b> In this mode the doubled bow (<code>{breathing}</code>) marks <b>aspiration</b> (e.g. <i>p</i> = /pʰ/), not voicing. This is the opposite of English / Quenya / Sindarin modes where the doubled bow marks the voiced member of a pair. The base <code>{umbar}</code> also reads as /p/ here (voiceless unaspirated), not /b/. See the docs/ledgers/invariants/pinyin-mode.md for the full cross-mode semantic table.</p>"
   },
   "hu": {
     "the-tengwar-transcriber": "A tengwar-átíró",
-
     "button.open-menu": "Menü megnyitása",
     "button.close-menu": "Menü bezárása",
-
     "menu.home": "Kezdőlap",
     "menu.handbook": "Tengwar-kézikönyv",
     "menu.inside-tecendil": "Útmutató a Tecendilhez",
     "menu.whats-new": "Újdonságok",
     "menu.install": "Telepítés",
     "menu.settings": "Beállítások",
-
     "footer.font-credits": "<b>Betűtípusok</b> Johan Winge: Tengwar Annatar és Tengwar Telcontar, M&aring;ns Bj&ouml;rkman: Parmaite Tengwar és Tengwar Eldamar, <a href=\"http://freetengwar.sourceforge.net/\">Free Tengwar Font Project</a>: Tengwar Formal. Toshi Omagari: Alcarin. A betűtípusok egy részét a Glaemscribe-projekten dolgozó Ben Talagan Babut adaptálta webes használatra.",
     "footer.contact": "Kérdésed van? Visszajelzést küldenél? Leellenőriznél egy átírást? Érdeklődj itt: ",
     "footer.support-intro": "Tetszik a Tecendil?",
     "footer.patreon": "Támogass Patreonon",
     "footer.paypal": "Támogass PayPalon",
-
     "prompt.install": "A Tecendil telepíthető az eszközödre offline használatra is.",
     "button.install": "Telepítés",
     "button.not-now": "Most nem",
-
     "prompt.drop-file": "Húzz egy fájlt bárhová az átíráshoz.",
-
     "label.placeholder.try": "Próbáld ki: “${placeholder}”",
-
     "label.font": "Betűtípus: ",
     "font-name.annatar-italic": "Annatar Dőlt",
-
     "label.mode": "Mód: ",
-
     "label.mode.english": "Angol",
     "menu.mode.english": "English (angol)",
     "label.mode.english-classical": "Angol (hagyományos)",
@@ -851,7 +750,6 @@
     "menu.mode.english-phonemic": "English Phonemic (kiejtés szerinti angol)",
     "label.mode.westron": "Nyugori",
     "menu.mode.westron-orthographic": "nyugori",
-
     "label.mode.czech": "Cseh",
     "menu.mode.czech": "čeština (cseh)",
     "label.mode.german-orthographic": "Német",
@@ -874,7 +772,6 @@
     "menu.mode.brazilian-portuguese": "Portugues do Brasil (brazil portugál)",
     "label.mode.slovenian-orthographic": "Slovenian",
     "menu.mode.slovenian-orthographic": "Slovenščina (Slovenian)",
-
     "label.mode.sindarin": "Qindarin",
     "menu.mode.sindarin": "Sindarin (általános mód)",
     "label.mode.quenya": "Quenya",
@@ -883,11 +780,9 @@
     "menu.mode.beleriand": "Sindarin (Beleriand)",
     "label.mode.erebor": "Cirth",
     "menu.mode.erebor": "Cirth (erebori rúnaírás)",
-
     "tooltip.download": "letöltés",
     "filename.screenshot": "Tecendil screenshot",
     "tooltip.share": "megosztás",
-
     "button.patron": "Legyél Patreon-támogató!",
     "welcome": "Üdv a Tecendilen",
     "welcome.1": "Szia! Arno vagyok.",
@@ -896,17 +791,13 @@
     "welcome.4": "Írj egy mondatot vagy nevet, és a program átírja tengwarra.",
     "welcome.5": "A keletkezett szöveg <b>nem fordítás</b>, hanem csak a szöveg tengwar-betűkkel írt változata.",
     "welcome.6": "A megfelelő átíráshoz válaszd ki a megfelelő nyelvet a <i>Mód</i> menüben: angol, cseh, lengyel, lojban, magyar, nyugori, olasz, quenya, sindarin, spanyol. Ha szeretnél segíteni más nyelvek átírásában, lépjünk kapcsolatba.",
-
     "welcome.7": "Tecendil egy Tengwar átíró, nem fordító",
     "welcome.8": "A szöveg, amit beírsz, nincs <i>lefordítva</i>, egyszerűen csak Tengwar karakterekkel van írva.",
     "welcome.9": "A helyes átíráshoz válaszd ki a nyelvet, amelyen írsz a <b>Mod</b> menüből.",
-
     "label.source-eldamo": "Forrás: <a href=\"https://eldamo.org\">Eldamo</a>",
-
     "label.wikipedia.intro-random": "Gyakorold a tengwar olvasását ezzel a véletlenszerűen választott Wikipédia-szócikkel:",
     "label.wikipedia.intro": "Gyakorold a Tengwar olvasását ezzel a Wikipédia-szócikkel: ",
     "label.wikipedia.intro.close": "",
-
     "dialog-title.settings": "Beállítások",
     "button.close": "Bezár",
     "button.back": "Vissza",
@@ -923,44 +814,40 @@
     "settings.theme": "Téma",
     "settings.theme.system": "Alapbeállítás",
     "settings.theme.light": "Világos",
-    "settings.theme.dark": "Sötét"
+    "settings.theme.dark": "Sötét",
+    "label.mode.english-personal": "English (Personal)",
+    "menu.mode.english-personal": "English (Personal)",
+    "label.mode.pinyin": "Kínai Pinjin",
+    "menu.mode.pinyin": "Hanyu Pinyin (汉语拼音)",
+    "warning.pinyin": "<p><b>Note.</b> This mode transcribes Hanyu Pinyin (e.g. <i>ni3hao3</i> or <i>xièxiè</i>) into Tengwar using searcherr's pinyin convention. It does not translate the input. Tones 1–4 are written above the initial; tone 5 (neutral) is unmarked.</p><p><b>Cross-mode warning.</b> In this mode the doubled bow (<code>{breathing}</code>) marks <b>aspiration</b> (e.g. <i>p</i> = /pʰ/), not voicing. This is the opposite of English / Quenya / Sindarin modes where the doubled bow marks the voiced member of a pair. The base <code>{umbar}</code> also reads as /p/ here (voiceless unaspirated), not /b/. See the docs/ledgers/invariants/pinyin-mode.md for the full cross-mode semantic table.</p>"
   },
   "it": {
     "the-tengwar-transcriber": "Il Trascrittore Tengwar",
-
     "button.open-menu": "Apri menù",
     "button.close-menu": "Chiudi menù",
-
     "menu.home": "Benvenuto",
     "menu.handbook": "Manuale Tengwar",
     "menu.whats-new": "Cosa c'è di nuovo?",
     "menu.install": "Installare",
     "menu.settings": "Impostazioni",
-
     "footer.font-credits": "<b>Font</b> Tengwar Annatar e Tengar Telcontar di Johan Winge, Parmaite Tengwar e Tengwar Eldamar di Måns Björkman, Tengwar Formal da <a href=\"http://freetengwar.sourceforge.net/\">Free Tengwar Font Project</a>.",
     "footer.contact": "Hai una domanda? Hai qualche commento? Vuoi controllare una trascrizione? Basta chiedere ",
     "footer.support-intro": "Ti piace Tecendil?",
     "footer.patreon": "Supportami su Patreon",
     "footer.paypal": "Dona con PayPal",
-
     "prompt.install": "Per l'accesso offline, Tecendil può essere installato sul tuo dispositivo.",
     "button.install": "Installa",
     "button.not-now": "Non ora",
-
     "label.placeholder.try": "Prova: „${placeholder}“",
-
     "label.font": "Font: ",
     "font-name.annatar-italic": "Annatar Corsivo",
-
     "label.mode": "Modalità: ",
-
     "label.mode.english": "Inglese",
     "menu.mode.english": "Inglese",
     "label.mode.english-classical": "Inglese Tradizionale",
     "menu.mode.english-classical": "Inglese Tradizionale",
     "label.mode.english-phonemic": "Inglese Fonetico",
     "menu.mode.english-phonemic": "Inglese Fonetico",
-
     "label.mode.spanish": "Spagnolo",
     "menu.mode.spanish": "Spagnolo",
     "label.mode.hungarian": "Ungherese",
@@ -970,18 +857,14 @@
     "label.mode.italian-full": "Italiano Esteso",
     "menu.mode.italian-full": "Italiano Esteso",
     "label.mode.lojban": "Lojban",
-
     "label.mode.sindarin": "Sindarin",
     "menu.mode.sindarin": "Sindarin (Modalità Generale)",
     "label.mode.quenya": "Quenya",
     "label.mode.beleriand": "Sindarin (Beleriand)",
     "label.mode.erebor": "Cirth",
-
     "warning.elvish": "<p><b>ATTENZIONE</b>Questo non sembra inglese. È Sindarin o Quenya? Per una trascrizione precisa, seleziona la modalità Sindarin, Quenya o Beleriand.</p>",
-
     "tooltip.download": "Scarica",
     "filename.screenshot": "Screenshot di Tecendil",
-
     "button.patron": "Diventa un Patreon!",
     "welcome": "Benvenuto su Tecendil",
     "welcome.1": "Ciao! Mi chiamo Arno.",
@@ -990,14 +873,11 @@
     "welcome.4": "Scrivi una frase o un nome e guardalo trascritto in Tengwar",
     "welcome.5": "Tieni presente che il testo <b>non è tradotto</b>, ma è semplicemente scritto usando i caratteri Tengwar.",
     "welcome.6": "Affinché la trascrizione sia corretta, è necessario selezionare la lingua appropriata nel menù <i>Modalità</i>: italiano, inglese, spagnolo, Quenya o Sindarin. Se sei interessato a supportare altre lingue, contattami.",
-
     "welcome.7": "Tecendil è un trascrittore di Tengwar, non un traduttore",
     "welcome.8": "Il testo che digiti non è <i>tradotto</i>, è semplicemente scritto usando i caratteri Tengwar.",
     "welcome.9": "Per una trascrizione corretta, scegli la lingua in cui stai scrivendo dal menu <b>Modalità</b>.",
-
     "label.wikipedia.intro": "Esercitati a leggere Tengwar con questo articolo su  “",
     "label.wikipedia.intro.close": "” di Wikipedia:",
-
     "dialog-title.settings": "Impostazioni",
     "button.close": "Chiudi",
     "button.back": "Indietro",
@@ -1008,40 +888,36 @@
     "description.settings.wikipedia": "Mostra un articolo di Wikipedia",
     "settings.language": "Lingua",
     "settings.language.default": "Lingua di default",
-    "settings.dark-mode": "Modalità Scura"
+    "settings.dark-mode": "Modalità Scura",
+    "label.mode.english-personal": "English (Personal)",
+    "menu.mode.english-personal": "English (Personal)",
+    "label.mode.pinyin": "Pinyin cinese",
+    "menu.mode.pinyin": "Hanyu Pinyin (汉语拼音)",
+    "warning.pinyin": "<p><b>Note.</b> This mode transcribes Hanyu Pinyin (e.g. <i>ni3hao3</i> or <i>xièxiè</i>) into Tengwar using searcherr's pinyin convention. It does not translate the input. Tones 1–4 are written above the initial; tone 5 (neutral) is unmarked.</p><p><b>Cross-mode warning.</b> In this mode the doubled bow (<code>{breathing}</code>) marks <b>aspiration</b> (e.g. <i>p</i> = /pʰ/), not voicing. This is the opposite of English / Quenya / Sindarin modes where the doubled bow marks the voiced member of a pair. The base <code>{umbar}</code> also reads as /p/ here (voiceless unaspirated), not /b/. See the docs/ledgers/invariants/pinyin-mode.md for the full cross-mode semantic table.</p>"
   },
   "pl": {
     "the-tengwar-transcriber": "Transkryber do Tengwaru",
-
     "button.open-menu": "Otwórz menu",
     "button.close-menu": "Zamknij menu",
-
     "menu.home": "Strona główna",
     "menu.handbook": "Podręcznik Tengwaru (ang.)",
     "menu.inside-tecendil": "Jak działa Tecendil?",
     "menu.whats-new": "Co nowego?",
     "menu.install": "Zainstaluj (Chrome)",
     "menu.settings": "Ustawienia",
-
     "footer.font-credits": "<b>Użyte fonty</b>: Tengwar Annatar oraz Tengwar Telcontar autorstwa Johana Winge, Parmaite Tengwar oraz Tengwar Eldamar autorstwa M&aring;ns Bj&ouml;rkmana, Tengwar Formal pochodzi z serwisu <a href=\"http://freetengwar.sourceforge.net/\">Free Tengwar Font Project</a>. Niektóre z fontów zaadaptował do wersji web Ben Talagan Babut z projektu Glaemscribe.",
     "footer.contact": "Masz pytanie? Potrzebujesz wsparcia? Chcesz sprawdzić transkrypcję? Po prostu zapytaj (j. ang.) ",
     "footer.support-intro": "Podoba Ci się Tecendil?",
     "footer.patreon": "Wspieraj mnie przez Patreon",
     "footer.paypal": "Przekaż darowiznę przez PayPal",
-
     "prompt.install": "Możesz zainstalować Tecendila na swoim urządzeniu, by korzystać z niego off-line",
     "button.install": "Zainstaluj",
     "button.not-now": "Nie teraz",
-
     "prompt.drop-file": "Przeciągnij i upuść plik by rozpocząć transkrypcję!",
-
     "label.placeholder.try": "Wypróbuj: “${placeholder}”",
-
     "label.font": "Czcionka: ",
     "font-name.annatar-italic": "Annatar Italic",
-
     "label.mode": "Tryb: ",
-
     "label.mode.quenya": "klasyczny",
     "menu.mode.quenya": "quenya",
     "label.mode.sindarin": "dla sindarinu",
@@ -1058,7 +934,6 @@
     "menu.mode.english-phonemic": "angielski fonetyczny",
     "label.mode.westron": "dla westronu",
     "menu.mode.westron": "orthograficzny (westron)",
-
     "label.mode.czech": "dla czeskiego",
     "menu.mode.czech": "czeski",
     "label.mode.spanish": "dla hiszpańskiego",
@@ -1077,18 +952,15 @@
     "menu.mode.derdzinski-polish": "polski (Derdzińskiego)",
     "label.mode.lojban": "dla lojbanu",
     "menu.mode.lojban": "jbobau",
-
     "warning.general": "<p><b>CAUTION</b> This transcriber only works well for English, Spanish, Sindarin or Quenya. The result may be inaccurate otherwise.</p>",
     "warning.english": "<p><b>CAUTION</b> Tecendil does not translate. What you typed looks like English. For an accurate transcription, select an English mode.</p>",
     "warning.spanish": "<p><b>PRECAUCIÓN</b> Para transcribir una oración o nombre en español, use el modo <kbd>Español</kbd>.</p>",
     "warning.italian": "<p><b>ATTTENZIONE</b> Per trascrivere una frase o un nome in italiano, utilizzare la modalità <kbd>italianio<kbd>.</p>",
     "warning.polish": "<p><b>UWAGA!</b> Tecendil <b>nie jest</b> programem tłumaczącym! By osiągnąć najlepszy rezultat użyj modu właściwego dla danego języka</p>",
     "warning.elvish": "<p><b>CAUTION</b> This doesn't look like English. Is this Sindarin or Quenya? For an accurate transcription, select the Sindarin, Quenya or Beleriand mode.</p>",
-
     "tooltip.download": "pobierz",
     "filename.screenshot": "Tecendil_screenshot",
     "tooltip.share": "udostępnij",
-
     "button.patron": "Zostań Patronem!",
     "welcome": "Witaj w serwisie Tecendil",
     "welcome.1": "Cześć, Jestem Arno!",
@@ -1097,17 +969,13 @@
     "welcome.4": "Wpisz jakieś słowo, zdanie, albo imię i zobacz, jak wygląda zapisane Tengwarem.",
     "welcome.5": "Pamiętaj, że <i>to nie jest tłumaczenie na języki elfów</i>, tylko po prostu zapis przy użyciu znakow pisma tengwarowego.",
     "welcome.6": "Żeby transkrypcja przebiegła poprawnie, w menu <i>Tryb</i> należy wybrać właściwy język: angielski, polski, quenya, sindarin, lub inny. Jeżeli chcesz pomóc w implementowaniu innych trybów, skontaktuj się ze mną.",
-
     "welcome.7": "Tecendil to transkryber Tengwaru, nie tłumacz",
     "welcome.8": "Tekst, który wpisujesz, nie jest <i>tłumaczony</i>, jest po prostu zapisany przy użyciu znaków Tengwar.",
     "welcome.9": "Aby uzyskać poprawną transkrypcję, wybierz język, w którym piszesz, z menu <b>Tryb</b>.",
-
     "label.source-eldamo": "Źródło: <a href=\"https://eldamo.org\">Eldamo</a>",
-
     "label.wikipedia.intro-random": "Poćwicz czytanie Tengwaru zapoznając się z tym losowo wybranym artykułem z Wikipedii:",
     "label.wikipedia.intro": "Poćwicz czytanie Tengwaru zapoznając się z artykułem o “",
     "label.wikipedia.intro.close": "” z Wikipedii:",
-
     "dialog-title.settings": "Ustawienia",
     "button.close": "Zamknij",
     "button.back": "Wróć",
@@ -1124,40 +992,36 @@
     "settings.theme": "Motyw",
     "settings.theme.system": "Domyślny systemowy",
     "settings.theme.light": "Jasny",
-    "settings.theme.dark": "Ciemny"
+    "settings.theme.dark": "Ciemny",
+    "label.mode.english-personal": "English (Personal)",
+    "menu.mode.english-personal": "English (Personal)",
+    "label.mode.pinyin": "Chiński pinyin",
+    "menu.mode.pinyin": "Hanyu Pinyin (汉语拼音)",
+    "warning.pinyin": "<p><b>Note.</b> This mode transcribes Hanyu Pinyin (e.g. <i>ni3hao3</i> or <i>xièxiè</i>) into Tengwar using searcherr's pinyin convention. It does not translate the input. Tones 1–4 are written above the initial; tone 5 (neutral) is unmarked.</p><p><b>Cross-mode warning.</b> In this mode the doubled bow (<code>{breathing}</code>) marks <b>aspiration</b> (e.g. <i>p</i> = /pʰ/), not voicing. This is the opposite of English / Quenya / Sindarin modes where the doubled bow marks the voiced member of a pair. The base <code>{umbar}</code> also reads as /p/ here (voiceless unaspirated), not /b/. See the docs/ledgers/invariants/pinyin-mode.md for the full cross-mode semantic table.</p>"
   },
   "pt-br": {
     "the-tengwar-transcriber": "O Transcritor de Tengwar",
-
     "button.open-menu": "Abrir Menu",
     "button.close-menu": "Fechar Menu",
-
     "menu.home": "início",
     "menu.handbook": "Manual Tengwar",
     "menu.inside-tecendil": "Por Dentro do Tecendil",
     "menu.whats-new": "O que há de novo?",
     "menu.install": "Instalar",
     "menu.settings": "Configurações",
-
     "footer.font-credits": "<b>Fontes</b> Tengwar Annatar e Tengwar Telcontar por Johan Winge, Parmaite Tengwar e Tengwar Eldamar por M&aring;ns Bj&ouml;rkman, Tengwar Formal por <a href=\"http://freetengwar.sourceforge.net/\">Free Tengwar Font Project</a>. Alcarin por Toshi Omagari. Algumas fonte adaptadas para a web por Ben Talagan Babut do projeto Glaemscribe.",
     "footer.contact": "Alguma dúvida ou sugestão? Quer pedir uma transcrição? Basta perguntar ",
     "footer.support-intro": "Gostando do Tecendil?",
     "footer.patreon": "Me apoie no Patreon",
     "footer.paypal": "Doe via PayPal",
-
     "prompt.install": "Tecendil pode ser instalado no seu aparelho para acesso offline.",
     "button.install": "Instalar",
     "button.not-now": "Talvez depois",
-
     "prompt.drop-file": "Solte um arquivo em qualquer lugar para transcrevê-lo",
-
     "label.placeholder.try": "Tente: “${placeholder}”",
-
     "label.font": "Fonte: ",
     "font-name.annatar-italic": "Annatar Italic",
-
     "label.mode": "Modo: ",
-
     "label.mode.english": "English",
     "menu.mode.english": "English",
     "label.mode.english-classical": "English Traditional",
@@ -1166,7 +1030,6 @@
     "menu.mode.english-phonemic": "English Phonemic",
     "label.mode.westron": "Westron",
     "menu.mode.westron-orthographic": "Westron Orthographic",
-
     "label.mode.czech": "čeština",
     "menu.mode.czech": "čeština",
     "label.mode.german-orthographic": "alemão",
@@ -1189,7 +1052,6 @@
     "menu.mode.polish-classic": "polonês (polski)",
     "label.mode.brazilian-portuguese": "português BR",
     "menu.mode.brazilian-portuguese": "português Brasileiro",
-
     "label.mode.sindarin": "sindarin",
     "menu.mode.sindarin": "sindarin (modo geral)",
     "label.mode.quenya": "quenya",
@@ -1198,11 +1060,9 @@
     "menu.mode.beleriand": "Sindarin (Beleriand)",
     "label.mode.erebor": "cirth",
     "menu.mode.erebor": "cirth: Angerthas erebor",
-
     "tooltip.download": "download",
     "filename.screenshot": "Tecendil screenshot",
     "tooltip.share": "compartilhar",
-
     "button.patron": "Seja um Apoiador!",
     "welcome": "Bem Vindo ao Tecendil",
     "welcome.1": "Olá! Meu nome é Arno.",
@@ -1211,17 +1071,14 @@
     "welcome.4": "Digite uma frase ou nome e veja sua transcrição em Tengwar.",
     "welcome.5": "Note que o texto <b>não é traduzido</b>, ele é apenas escrito usando os caracteres Tengwar.",
     "welcome.6": "Para uma transcrição correta, selecione a língua apropriada no menu <i>Modo</i>: Ingles, Portugues, Italiano, Espanhol, Quenya ou Sindarin. Se está interessado em adicionar sua própria língua me contate.",
-
     "welcome.7": "Tecendil é um transcritor de Tengwar, não um tradutor",
     "welcome.8": "O texto que você digita não é <i>traduzido</i>, ele é simplesmente escrito usando os caracteres Tengwar.",
     "welcome.9": "Para uma transcrição correta, escolha o idioma em que você está escrevendo no menu <b>Modo</b>.",
-
     "label.wikipedia.intro-random": "Pratique Tengwar lendo este artigo aleatório da Wikipédia:",
     "label.wikipedia.intro": "Pratique Tengwar com este artigo sobre “",
     "label.wikipedia.intro.close": "” da Wikipedia:",
     "button.wikipedia.next": "Próximo Artigo",
     "button.wikipedia.next-random": "Artigo Aleatório da Wikipedia",
-
     "dialog-title.settings": "Configurações",
     "button.close": "Fechar",
     "button.back": "Voltar",
@@ -1238,40 +1095,36 @@
     "settings.theme": "Tema",
     "settings.theme.system": "Padrão do Sistema",
     "settings.theme.light": "Claro",
-    "settings.theme.dark": "Escuro"
+    "settings.theme.dark": "Escuro",
+    "label.mode.english-personal": "English (Personal)",
+    "menu.mode.english-personal": "English (Personal)",
+    "label.mode.pinyin": "Pinyin chinês",
+    "menu.mode.pinyin": "Hanyu Pinyin (汉语拼音)",
+    "warning.pinyin": "<p><b>Note.</b> This mode transcribes Hanyu Pinyin (e.g. <i>ni3hao3</i> or <i>xièxiè</i>) into Tengwar using searcherr's pinyin convention. It does not translate the input. Tones 1–4 are written above the initial; tone 5 (neutral) is unmarked.</p><p><b>Cross-mode warning.</b> In this mode the doubled bow (<code>{breathing}</code>) marks <b>aspiration</b> (e.g. <i>p</i> = /pʰ/), not voicing. This is the opposite of English / Quenya / Sindarin modes where the doubled bow marks the voiced member of a pair. The base <code>{umbar}</code> also reads as /p/ here (voiceless unaspirated), not /b/. See the docs/ledgers/invariants/pinyin-mode.md for the full cross-mode semantic table.</p>"
   },
   "ro": {
     "the-tengwar-transcriber": "Transcriitorul Tengwar",
-
     "button.open-menu": "Deschidere Meniu",
     "button.close-menu": "Închidere Meniu",
-
     "menu.home": "Acasă",
     "menu.handbook": "Manual Tengwar",
     "menu.inside-tecendil": "Interiorul Tecendil-ului",
     "menu.whats-new": "Ce-i Nou?",
     "menu.install": "Instalare",
     "menu.settings": "Setări",
-
     "footer.font-credits": "<b>Fonts</b> Tengwar Annatar și Tengwar Telcontar de Johan Winge, Parmaite Tengwar și Tengwar Eldamar de M&aring;ns Bj&ouml;rkman, Tengwar Formal de <a href=\"http://freetengwar.sourceforge.net/\">Proiectul Font Tengwar Gratis</a>. Alcarin de Toshi Omagari. Câteva fonturi adaptate la web de Ben Talagan Babut din proiectul Glaemscribe.",
     "footer.contact": "Ai vreo întrebare? Niște feedback? Vrei să verifici o transcriere? Doar întreabă ",
     "footer.support-intro": "Îți Place Tecendil?",
     "footer.patreon": "Susține-mă pe Patreon",
     "footer.paypal": "Donează cu PayPal",
-
     "prompt.install": "Pentru acces fără Internet, Tecendil poate fi instalat pe dispozitivul tău.",
     "button.install": "Instalare",
     "button.not-now": "Nu Acum",
-
     "prompt.drop-file": "Plasează un fișier oriunde pentru a-l transcrie.",
-
     "label.placeholder.try": "Încearcă: “${placeholder}”",
-
     "label.font": "Font: ",
     "font-name.annatar-italic": "Annatar Italic",
-
     "label.mode": "Mod: ",
-
     "label.mode.english": "Engleză",
     "menu.mode.english": "Engleză",
     "label.mode.english-classical": "Engleză Tradițională",
@@ -1280,7 +1133,6 @@
     "menu.mode.english-phonemic": "Engleză Fonemică",
     "label.mode.westron": "Westron",
     "menu.mode.westron-orthographic": "Westron Ortografic",
-
     "label.mode.czech": "Cehă",
     "menu.mode.czech": "čeština (Cehă)",
     "label.mode.german-orthographic": "Germană",
@@ -1305,7 +1157,6 @@
     "menu.mode.romanian": "Română",
     "label.mode.slovenian-orthographic": "Slovenă",
     "menu.mode.slovenian-orthographic": "Slovenščina (Slovenă)",
-
     "label.mode.sindarin": "Sindarin",
     "menu.mode.sindarin": "Sindarin (Mod General)",
     "label.mode.quenya": "Quenya",
@@ -1314,14 +1165,11 @@
     "menu.mode.beleriand": "Sindarin (Beleriand)",
     "label.mode.erebor": "Cirth",
     "menu.mode.erebor": "Cirth: Angerthas Erebor",
-
     "warning.english": "<p><b>ATENȚIE</b> Tecendil nu traduce. Ce ai scris pare a fi engleză. Pentru o transcriere corectă, selectează un mod englezesc.</p>",
     "warning.elvish": "<p><b>ATENȚIE</b> Asta nu arată a Engleză. Este Sindarin sau Quenya? Pentru o transcriere corectă, selectează modul Sindarin, Quenya sau Beleriand.</p>",
-
     "tooltip.download": "descarcă",
     "filename.screenshot": "captură de ecran Tecendil",
     "tooltip.share": "distribuie",
-
     "button.patron": "Devino Patron!",
     "welcome": "Bine ai venit la Tecendil",
     "welcome.1": "Salut! Numele meu e Arno.",
@@ -1330,19 +1178,15 @@
     "welcome.4": "Scrie o propoziție sau un nume și privește-l transcris în Tengwar.",
     "welcome.5": "Ține minte că textul <b>nu este tradus</b>,este pur și simplu scris folosind caractere Tengwar.",
     "welcome.6": "Pentru o transcriere corectă, selectează limba corespunzătoare în <i>Meniul cu Moduri</i>: Engleză, Italiană, Spaniolă, Cehă, Slovenă, Poloneză, Maghiară,  Lojban, Portugheză Braziliană, Germană, Română, Quenya sau Sindarin. Dacă ești interesat în implementarea altor limbi, contactează-mă.",
-
     "welcome.7": "Tecendil este un transcriptor Tengwar, nu un traducător",
     "welcome.8": "Textul pe care îl tastezi nu este <i>tradus</i>, este pur și simplu scris folosind caracterele Tengwar.",
     "welcome.9": "Pentru o transcriere corectă, alege limba în care scrii din meniul <b>Mod</b>.",
-
     "label.source-eldamo": "Sursă: <a href=\"https://eldamo.org\">Eldamo</a>",
-
     "label.wikipedia.intro-random": "Exersează cititul în Tengwar cu acest articol aleatoriu de pe Wikipedia:",
     "label.wikipedia.intro": "Exersează cititul în Tengwar cu acest articol despre “",
     "label.wikipedia.intro.close": "” de pe Wikipedia:",
     "button.wikipedia.next": "Următorul Articol",
     "button.wikipedia.next-random": "Articol Wikipedia Aleatoriu",
-
     "dialog-title.settings": "Setări",
     "button.close": "Închidere",
     "button.back": "Înapoi",
@@ -1359,39 +1203,35 @@
     "settings.theme": "Temă",
     "settings.theme.system": "Temă Implicită",
     "settings.theme.light": "Luminat",
-    "settings.theme.dark": "Întunecat"
+    "settings.theme.dark": "Întunecat",
+    "label.mode.english-personal": "English (Personal)",
+    "menu.mode.english-personal": "English (Personal)",
+    "label.mode.pinyin": "Pinyin chinezesc",
+    "menu.mode.pinyin": "Hanyu Pinyin (汉语拼音)",
+    "warning.pinyin": "<p><b>Note.</b> This mode transcribes Hanyu Pinyin (e.g. <i>ni3hao3</i> or <i>xièxiè</i>) into Tengwar using searcherr's pinyin convention. It does not translate the input. Tones 1–4 are written above the initial; tone 5 (neutral) is unmarked.</p><p><b>Cross-mode warning.</b> In this mode the doubled bow (<code>{breathing}</code>) marks <b>aspiration</b> (e.g. <i>p</i> = /pʰ/), not voicing. This is the opposite of English / Quenya / Sindarin modes where the doubled bow marks the voiced member of a pair. The base <code>{umbar}</code> also reads as /p/ here (voiceless unaspirated), not /b/. See the docs/ledgers/invariants/pinyin-mode.md for the full cross-mode semantic table.</p>"
   },
   "zh": {
     "the-tengwar-transcriber": "滕格瓦转写器",
-
     "button.open-menu": "打开菜单",
     "button.close-menu": "关闭菜单",
-
     "menu.home": "首页",
     "menu.handbook": "滕格瓦手册",
     "menu.inside-tecendil": "Tecendil内在机制",
     "menu.whats-new": "最新消息",
     "menu.install": "安装",
     "menu.settings": "设置",
-
     "message.loading": "加载中…",
-
     "footer.contact": "有任何问题？希望提供反馈？想要确认转写结果是否正确？请联系 ",
     "footer.support-intro": "你喜欢Tecendil吗？",
     "footer.patreon": "在Patreon上支持我",
     "footer.paypal": "捐赠PayPal",
-
     "prompt.install": "您可以在设备安装Tecendil以用于离线访问。",
     "button.install": "安裝",
     "button.not-now": "稍后",
-
     "label.placeholder.try": "尝试：“${placeholder}”",
-
     "label.font": "字体：",
     "font-name.annatar-italic": "Annatar 斜体",
-
     "label.mode": "模式：",
-
     "label.mode.english": "英语",
     "menu.mode.english": "英语（English）",
     "label.mode.english-classical": "英语传统",
@@ -1400,7 +1240,6 @@
     "menu.mode.english-phonemic": "英语语音（English Phonemic）",
     "label.mode.westron": "西部语",
     "menu.mode.westron-orthographic": "西部语正字法（Westron Orthographic）",
-
     "label.mode.czech": "捷克语",
     "menu.mode.czech": "捷克语（čeština）",
     "label.mode.german-orthographic": "德语",
@@ -1427,7 +1266,6 @@
     "menu.mode.romanian": "罗马尼亚语（Română）",
     "label.mode.slovenian-orthographic": "斯洛文尼亚语",
     "menu.mode.slovenian-orthographic": "斯洛文尼亚语（Slovenščina）",
-
     "label.mode.sindarin": "辛达林语",
     "menu.mode.sindarin": "辛达林语（Sindarin）",
     "label.mode.quenya": "昆雅语",
@@ -1436,13 +1274,10 @@
     "menu.mode.beleriand": "贝尔兰（Beleriand）",
     "label.mode.erebor": "切斯文",
     "menu.mode.erebor": "切斯文（Cirth: Angerthas Erebor）",
-
     "warning.elvish": "<p><b>警告：</b>这看起来不像英语。这是辛达林语还是昆雅语？要获得准确的转录，请选择Sindarin，Quenya或Beleriand模式。</p>",
-
     "tooltip.download": "下载",
     "filename.screenshot": "Tecendil截图",
     "tooltip.share": "分享",
-
     "button.patron": "成为赞助人！",
     "welcome": "欢迎来到Tecendil",
     "welcome.1": "你好！我叫Arno。",
@@ -1451,14 +1286,11 @@
     "welcome.4": "输入一句话或一个名字，然后将其转写为滕格瓦文字（Tengwar）。",
     "welcome.5": "请注意，结果文本<b>并未被翻译</b>，只是转写成了使用滕格瓦文字的形式。",
     "welcome.6": "要使转录结果正确，您必须在“模式”菜单中选择合适的语言：英语、西班牙语、昆雅语或辛达林语。",
-
     "welcome.7": "Tecendil 是一个 Tengwar 转写器，不是翻译器",
     "welcome.8": "您输入的文本没有被<i>翻译</i>，它只是使用 Tengwar 字符书写。",
     "welcome.9": "为了正确的转写，请从<b>模式</b>菜单中选择您正在书写的语言。",
-
     "button.wikipedia.next": "下一篇条目",
     "button.wikipedia.next-random": "随机条目",
-
     "dialog-title.settings": "设置",
     "button.close": "关闭",
     "button.back": "返回",
@@ -1475,41 +1307,36 @@
     "settings.theme": "主题",
     "settings.theme.system": "系统默认",
     "settings.theme.light": "浅色",
-    "settings.theme.dark": "深色"
+    "settings.theme.dark": "深色",
+    "label.mode.english-personal": "English (Personal)",
+    "menu.mode.english-personal": "English (Personal)",
+    "label.mode.pinyin": "汉语拼音",
+    "menu.mode.pinyin": "汉语拼音 (Hanyu Pinyin)",
+    "warning.pinyin": "<p><b>Note.</b> This mode transcribes Hanyu Pinyin (e.g. <i>ni3hao3</i> or <i>xièxiè</i>) into Tengwar using searcherr's pinyin convention. It does not translate the input. Tones 1–4 are written above the initial; tone 5 (neutral) is unmarked.</p><p><b>Cross-mode warning.</b> In this mode the doubled bow (<code>{breathing}</code>) marks <b>aspiration</b> (e.g. <i>p</i> = /pʰ/), not voicing. This is the opposite of English / Quenya / Sindarin modes where the doubled bow marks the voiced member of a pair. The base <code>{umbar}</code> also reads as /p/ here (voiceless unaspirated), not /b/. See the docs/ledgers/invariants/pinyin-mode.md for the full cross-mode semantic table.</p>"
   },
   "zh-hk": {
     "the-tengwar-transcriber": "談格瓦轉寫器",
-
     "button.open-menu": "開啟選單",
     "button.close-menu": "關閉選單",
-
     "menu.home": "首頁",
     "menu.handbook": "談格瓦手冊",
     "menu.inside-tecendil": "Tecendil 內在機制",
     "menu.whats-new": "最新資訊",
     "menu.install": "安裝",
     "menu.settings": "設定",
-
     "message.loading": "載入中…",
-
     "footer.contact": "有任何問題？希望提供意見回饋？想要確認轉寫結果是否正確？請聯絡 ",
     "footer.support-intro": "你喜欢Tecendil吗？",
     "footer.patreon": "在Patreon上支持我",
     "footer.paypal": "捐赠PayPal",
-
     "prompt.install": "您可以在裝置安裝Tecendil以用於離線存取。",
     "button.install": "安裝",
     "button.not-now": "稍後",
-
     "prompt.drop-file": "在此拖放檔案以轉寫。",
-
     "label.placeholder.try": "嘗試：「${placeholder}」",
-
     "label.font": "字型：",
     "font-name.annatar-italic": "Annatar 斜體",
-
     "label.mode": "模式：",
-
     "label.mode.english": "英語",
     "menu.mode.english": "英語（English）",
     "label.mode.english-classical": "英語傳統",
@@ -1518,7 +1345,6 @@
     "menu.mode.english-phonemic": "英語語音（English Phonemic）",
     "label.mode.westron": "Westron",
     "menu.mode.westron-orthographic": "Westron Orthographic",
-
     "label.mode.czech": "捷克語",
     "menu.mode.czech": "捷克語（čeština）",
     "label.mode.german-orthographic": "德語",
@@ -1545,7 +1371,6 @@
     "menu.mode.romanian": "羅馬尼亞語（Română）",
     "label.mode.slovenian-orthographic": "斯洛文尼亞語",
     "menu.mode.slovenian-orthographic": "斯洛文尼亞語（Slovenščina）",
-
     "label.mode.sindarin": "辛達林語",
     "menu.mode.sindarin": "辛達林語（Sindarin）",
     "label.mode.quenya": "昆雅語",
@@ -1554,15 +1379,11 @@
     "menu.mode.beleriand": "貝爾蘭（Beleriand）",
     "label.mode.erebor": "切斯文",
     "menu.mode.erebor": "切斯文（Cirth: Angerthas Erebor）",
-
     "info.mode.lojban": "基於 <a href='http://www.raphael.poss.name/tengwar/'>Elrond 的映射表修訂 - 模式 3</a>",
-
     "warning.elvish": "<p><b>警告：</b>这看起来不像英语。这是辛达林还是昆雅？要获得准确的转录，请选择Sindarin，Quenya或Beleriand模式。</p>",
-
     "tooltip.download": "下載",
     "filename.screenshot": "Tecendil截圖",
     "tooltip.share": "分享",
-
     "button.patron": "成為贊助人！",
     "welcome": "歡迎來到Tecendil",
     "welcome.1": "你好！我叫Arno。",
@@ -1571,14 +1392,11 @@
     "welcome.4": "輸入一句話或一個名字，然後將其轉寫為談格瓦文字（Tengwar）。",
     "welcome.5": "請注意，文字<b>並未被翻譯</b>，只是變成了談格瓦文字的形式。",
     "welcome.6": "要使轉錄正確，您必須在「模式」選單中選擇適當的語言：英語，西班牙語，昆雅語或辛達林語。",
-
     "welcome.7": "Tecendil 是一个 Tengwar 转写器，不是翻译器",
     "welcome.8": "您输入的文本没有被<i>翻译</i>，它只是使用 Tengwar 字符书写。",
     "welcome.9": "为了正确的转写，请从<b>模式</b>菜单中选择您正在书写的语言。",
-
     "button.wikipedia.next": "下一篇條目",
     "button.wikipedia.next-random": "隨機條目",
-
     "dialog-title.settings": "設定",
     "button.close": "關閉",
     "button.back": "返回",
@@ -1595,41 +1413,36 @@
     "settings.theme": "主題",
     "settings.theme.system": "系統預設",
     "settings.theme.light": "淺色",
-    "settings.theme.dark": "深色"
+    "settings.theme.dark": "深色",
+    "label.mode.english-personal": "English (Personal)",
+    "menu.mode.english-personal": "English (Personal)",
+    "label.mode.pinyin": "漢語拼音",
+    "menu.mode.pinyin": "漢語拼音 (Hanyu Pinyin)",
+    "warning.pinyin": "<p><b>Note.</b> This mode transcribes Hanyu Pinyin (e.g. <i>ni3hao3</i> or <i>xièxiè</i>) into Tengwar using searcherr's pinyin convention. It does not translate the input. Tones 1–4 are written above the initial; tone 5 (neutral) is unmarked.</p><p><b>Cross-mode warning.</b> In this mode the doubled bow (<code>{breathing}</code>) marks <b>aspiration</b> (e.g. <i>p</i> = /pʰ/), not voicing. This is the opposite of English / Quenya / Sindarin modes where the doubled bow marks the voiced member of a pair. The base <code>{umbar}</code> also reads as /p/ here (voiceless unaspirated), not /b/. See the docs/ledgers/invariants/pinyin-mode.md for the full cross-mode semantic table.</p>"
   },
   "zh-tw": {
     "the-tengwar-transcriber": "談格瓦轉寫器",
-
     "button.open-menu": "開啟選單",
     "button.close-menu": "關閉選單",
-
     "menu.home": "首頁",
     "menu.handbook": "談格瓦手冊",
     "menu.inside-tecendil": "Tecendil 內在機制",
     "menu.whats-new": "最新資訊",
     "menu.install": "安裝",
     "menu.settings": "設定",
-
     "message.loading": "載入中…",
-
     "footer.contact": "有任何問題？希望提供意見回饋？想要確認轉寫結果是否正確？請聯絡 ",
     "footer.support-intro": "你喜欢Tecendil吗？",
     "footer.patreon": "在Patreon上支持我",
     "footer.paypal": "捐赠PayPal",
-
     "prompt.install": "您可以在裝置安裝Tecendil以用於離線存取。",
     "button.install": "安裝",
     "button.not-now": "稍後",
-
     "prompt.drop-file": "在此拖放檔案以轉寫。",
-
     "label.placeholder.try": "嘗試：「${placeholder}」",
-
     "label.font": "字型：",
     "font-name.annatar-italic": "Annatar 斜體",
-
     "label.mode": "模式：",
-
     "label.mode.english": "英語",
     "menu.mode.english": "英語（English）",
     "label.mode.english-classical": "英語傳統",
@@ -1638,7 +1451,6 @@
     "menu.mode.english-phonemic": "英語語音（English Phonemic）",
     "label.mode.westron": "西部語",
     "menu.mode.westron-orthographic": "西部語正字法（Westron Orthographic）",
-
     "label.mode.czech": "捷克語",
     "menu.mode.czech": "捷克語（čeština）",
     "label.mode.german-orthographic": "德語",
@@ -1665,7 +1477,6 @@
     "menu.mode.romanian": "羅馬尼亞語（Română）",
     "label.mode.slovenian-orthographic": "斯洛維尼亞語",
     "menu.mode.slovenian-orthographic": "斯洛維尼亞語（Slovenščina）",
-
     "label.mode.sindarin": "辛達林語",
     "menu.mode.sindarin": "辛達林語（Sindarin）",
     "label.mode.quenya": "昆雅語",
@@ -1674,15 +1485,11 @@
     "menu.mode.beleriand": "貝爾蘭（Beleriand）",
     "label.mode.erebor": "切斯文",
     "menu.mode.erebor": "切斯文：伊魯伯字體（Cirth: Angerthas Erebor）",
-
     "info.mode.lojban": "基於 <a href='http://www.raphael.poss.name/tengwar/'>Elrond 的映射表修訂 - 模式 3</a>",
-
     "warning.elvish": "<p><b>警告：</b>這個看起來不像是英語。這是辛達林語或昆雅語嗎？要獲得準確的轉錄，請選擇Sindarin，Quenya或Beleriand模式。</p>",
-
     "tooltip.download": "下載",
     "filename.screenshot": "Tecendil截圖",
     "tooltip.share": "分享",
-
     "button.patron": "成為贊助人！",
     "welcome": "歡迎來到Tecendil",
     "welcome.1": "你好！我叫Arno。",
@@ -1691,14 +1498,11 @@
     "welcome.4": "輸入一句話或一個名字，然後將其轉寫為談格瓦文字（Tengwar）。",
     "welcome.5": "請注意，文字<b>並未被翻譯</b>，只是變成了談格瓦文字的形式。",
     "welcome.6": "要使轉錄正確，您必須在「模式」選單中選擇適當的語言：英語、西班牙語、昆雅語或辛達林語。",
-
     "welcome.7": "Tecendil 是一个 Tengwar 转写器，不是翻译器",
     "welcome.8": "您输入的文本没有被<i>翻译</i>，它只是使用 Tengwar 字符书写。",
     "welcome.9": "为了正确的转写，请从<b>模式</b>菜单中选择您正在书写的语言。",
-
     "button.wikipedia.next": "下一篇條目",
     "button.wikipedia.next-random": "隨機條目",
-
     "dialog-title.settings": "設定",
     "button.close": "關閉",
     "button.back": "返回",
@@ -1715,44 +1519,38 @@
     "settings.theme": "主題",
     "settings.theme.system": "系統預設",
     "settings.theme.light": "淺色",
-    "settings.theme.dark": "深色"
+    "settings.theme.dark": "深色",
+    "label.mode.english-personal": "English (Personal)",
+    "menu.mode.english-personal": "English (Personal)",
+    "label.mode.pinyin": "漢語拼音",
+    "menu.mode.pinyin": "漢語拼音 (Hanyu Pinyin)",
+    "warning.pinyin": "<p><b>Note.</b> This mode transcribes Hanyu Pinyin (e.g. <i>ni3hao3</i> or <i>xièxiè</i>) into Tengwar using searcherr's pinyin convention. It does not translate the input. Tones 1–4 are written above the initial; tone 5 (neutral) is unmarked.</p><p><b>Cross-mode warning.</b> In this mode the doubled bow (<code>{breathing}</code>) marks <b>aspiration</b> (e.g. <i>p</i> = /pʰ/), not voicing. This is the opposite of English / Quenya / Sindarin modes where the doubled bow marks the voiced member of a pair. The base <code>{umbar}</code> also reads as /p/ here (voiceless unaspirated), not /b/. See the docs/ledgers/invariants/pinyin-mode.md for the full cross-mode semantic table.</p>"
   },
   "slv": {
     "the-tengwar-transcriber": "Prepisovalec tengvarja",
-
     "button.open-menu": "Odpri meni",
     "button.close-menu": "Zapri meni",
-
     "menu.home": "Domov",
     "menu.handbook": "Priročnik tengvarja",
     "menu.inside-tecendil": "Notranjost Tecendila",
     "menu.whats-new": "Kaj je novega",
     "menu.install": "Namesti",
     "menu.settings": "Nastavitve",
-
     "message.loading": "Nalagam...",
-
     "footer.font-credits": "<b>Pisave</b> Tengwar Annatar in Tengwar Telcontar Johana Winga, Parmaite Tengwar in Tengwar Eldamar M&aring;ns Bj&ouml;rkman, Tengwar Formal z <a href=\"http://freetengwar.sourceforge.net/\">Free Tengwar Font Project</a>. Alcarin Toshija Omagarija. Nekatere pisave je za splet prilagodil B Ben Talagan Babut iz projekta Glaemscribe.",
     "footer.contact": "Imate vprašanje? Have some feedback? Want to check a transcription? Samo vprašaj ",
     "footer.support-intro": "Uživate v Tecendilu?",
     "footer.patreon": "Podpri me na Patreonu",
     "footer.paypal": "Prispevaj s PayPal-om",
-
     "prompt.title.javascript": "Tecendil zahteva JavaScript",
-
     "prompt.install": "Za dostop brez povezave se lahko Tecendil namesti na napravo.",
     "button.install": "Namesti",
     "button.not-now": "Ne zdaj",
-
     "prompt.drop-file": "Za prepisovanje spustite datoteko kjerkoli.",
-
     "label.placeholder.try": "Poskusi: “${placeholder}”",
-
     "label.font": "Pisava: ",
     "font-name.annatar-italic": "Annatar (ležeče)",
-
     "label.mode": "Način: ",
-
     "label.mode.english": "angleščina",
     "menu.mode.english": "angleščina (English)",
     "label.mode.english-classical": "angleščina, tradicionalno",
@@ -1761,7 +1559,6 @@
     "menu.mode.english-phonemic": "angleščina, glasovno",
     "label.mode.westron": "zahodščina",
     "menu.mode.westron-orthographic": "zahodščina, pravopisno",
-
     "label.mode.croatian": "hrvaščina",
     "menu.mode.croatian": "hrvaščina (hrvatski)",
     "label.mode.czech": "češčina",
@@ -1790,7 +1587,6 @@
     "menu.mode.romanian": "romunščina (română)",
     "label.mode.slovenian-orthographic": "slovenščina",
     "menu.mode.slovenian-orthographic": "slovenščina",
-
     "label.mode.sindarin": "sindarinščina",
     "menu.mode.sindarin": "sindarinščina",
     "label.mode.quenya": "kvenjščina",
@@ -1799,14 +1595,11 @@
     "menu.mode.beleriand": "Sindarin (Beleriand)ski način",
     "label.mode.erebor": "kirt",
     "menu.mode.erebor": "kirt (Angerthas Erebor)",
-
     "warning.english": "<p><b>POZOR</b> Tecendil ne prevaja. Napisano izgleda angleško. Za ustrezen prepis izberite angleški način.</p>",
     "warning.elvish": "<p><b>POZOR</b> To ne izgleda kakor angleščina. Je to sindarinščina ali kvenjščina? Za ustrezen prepis izberite sindarinski, kvenjski ali beleriandski način.</p>",
-
     "tooltip.download": "prenesi",
     "filename.screenshot": "Tecendil posnetek zaslona",
     "tooltip.share": "deli",
-
     "button.patron": "Postanite podpornik!",
     "welcome": "Dobrodošli na Tecendilu",
     "welcome.1": "Pozdravljeni! Sem Arno.",
@@ -1815,19 +1608,15 @@
     "welcome.4": "Napiši poved ali ime in poglejte kako se prepiše v tengvar.",
     "welcome.5": "Upoštevajte, da besedilo <b>ni prevedeno</b>, ampak je preprosto zapisano s znaki tengavarja.",
     "welcome.6": "Za pravilen prepis izberite ustrezen jezik v meniju <i>Način</i>: angleški, italijanski, španski, kvenjski ali sindarinski jezik. Če vas zanima podpora za druge jezike, se obrnite name.",
-
     "welcome.7": "Tecendil je prepisovalec tengvarja, ne prevajalnik",
     "welcome.8": "Besedilo, ki ga vnesete, ni <i>prevedeno</i>, ampak je preprosto zapisano z znaki tengvar.",
     "welcome.9": "Za pravilen prepis izberite jezik, v katerem pišete, iz menija <b>Način</b>.",
-
     "label.source-eldamo": "Vir: <a href=\"https://eldamo.org\">Eldamo</a>",
-
     "label.wikipedia.intro-random": "Vadi branje tengvarja s tem naključnim člankom z Wikipedije:",
     "label.wikipedia.intro": "Vadi branje tengvarja s tem člankom o “",
     "label.wikipedia.intro.close": "” from Wikipedia:",
     "button.wikipedia.next": "Naslednji članek",
     "button.wikipedia.next-random": "Naljučen Wikipedijin članek",
-
     "dialog-title.settings": "Nastavitve",
     "button.close": "Zapri",
     "button.back": "Nazaj",
@@ -1844,6 +1633,11 @@
     "settings.theme": "Téma",
     "settings.theme.system": "Privzeta sistemska",
     "settings.theme.light": "svetlo",
-    "settings.theme.dark": "temno"
+    "settings.theme.dark": "temno",
+    "label.mode.english-personal": "English (Personal)",
+    "menu.mode.english-personal": "English (Personal)",
+    "label.mode.pinyin": "Kitajski pinyin",
+    "menu.mode.pinyin": "Hanyu Pinyin (汉语拼音)",
+    "warning.pinyin": "<p><b>Note.</b> This mode transcribes Hanyu Pinyin (e.g. <i>ni3hao3</i> or <i>xièxiè</i>) into Tengwar using searcherr's pinyin convention. It does not translate the input. Tones 1–4 are written above the initial; tone 5 (neutral) is unmarked.</p><p><b>Cross-mode warning.</b> In this mode the doubled bow (<code>{breathing}</code>) marks <b>aspiration</b> (e.g. <i>p</i> = /pʰ/), not voicing. This is the opposite of English / Quenya / Sindarin modes where the doubled bow marks the voiced member of a pair. The base <code>{umbar}</code> also reads as /p/ here (voiceless unaspirated), not /b/. See the docs/ledgers/invariants/pinyin-mode.md for the full cross-mode semantic table.</p>"
   }
 }
